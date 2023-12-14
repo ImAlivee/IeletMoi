@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Neucha&family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Neucha&family=Roboto:wght@100;400&display=swap');   
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Comfortaa', sans-serif;
+  max-width: 102%;
+  max-height: 100%;
+}
+
+.barre {
+  margin-top: 3.3%;
+  float: right;
+  padding:1.5%;
+  margin-right: 4px; 
+}
+
+header nav ul {
+  list-style: none;
+}
+
+h1 {
+  margin-top: 25px;
+  font-family: 'Neucha', Arial;
+  font-size: 50px;
+ text-align: center;
+}
+
+.texte {
+text-align: center;
+}
+
+header nav ul li a {
+   text-decoration: none;
+  color:white;
+  font-size: 1.5em;
+}
+nav {
+  background-color: #478399;
+  height: 162px;
+  max-width: 100%;
+}
+
+li a:hover{
+  color: #F4AEA6 ;
+}
+.logo {
+  margin: 1%;
+}
+.preview{
+  display: inline-block;
+  max-width: 80%;
+  padding: 3%;
+}
+footer ul{
+  display: inline-block;
+}
+/*code pour accueil*/
+section{
+    background-image: url(public/Image/IELetmoifondblanc.svg);
+}
