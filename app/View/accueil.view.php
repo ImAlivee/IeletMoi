@@ -1,7 +1,7 @@
 <section class="description">
             <div class="texte">
             <h1>IEL & MOI</h1>
-            <p>En quoi consiste notre association :En quoi consiste notre association : em ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.</p>
+            <p>En quoi consiste notre association :</p>
             </div>
         </section>
         <section class="preview">
