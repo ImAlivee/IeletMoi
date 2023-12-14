@@ -20,6 +20,6 @@ $menu =[
     'Contact' => 'contact.php',
 ];
 $footer =[ 
-    'mentions' => 'mentionslegales',
+    'mentions' => 'mentions_legales.php',
     'copyright' => ' ',
 ];
