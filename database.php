@@ -22,4 +22,4 @@ $menu =[
 $footer =[ 
     'mentions' => 'mentionslegales',
     'copyright' => ' ',
-]
+];
