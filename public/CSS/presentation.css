@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css2?family=Comfortaa&family=Neucha&display=swap);
+
+*{
+  padding: 2px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Comfortaa', sans-serif;
+  inset-inline-end: 20px;
+}
+
+
+
+.logo img {
+  margin: 0%;
+  height: 150px;
+  float: left;
+  margin-top: 25px;
+  margin-left: 15px;
+}
+
+.barre {
+  display: inline-block;
+  margin-top: 3.5%;
+  width: 14.28%;
+  inline-size: 15%;
+  font-family: 'Neucha';
+  float: right;
+}
+
+.menu {
+  font-family: 'Neucha';
+  font-size: large;
+
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color:white;
+  font-size: 1.5em;
+  padding: 10%;
+}
+
+nav {
+  background-color: #478399;
+  border-radius: 75px;
+  height: 150px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.carte {
+  margin-left: 100px;
+  display: inline-block;
+}
+
+main {
+  inset-inline-start: 10px;
+  list-style: none;
+}
+
+li{
+  display: inline-block;
+}
+
+.equipe {
+  display: inline-block;
+  align-content: center;
+}
+
+.carte img {
+  border-style: dashed;
+  border-color: #ff9797;
+  border-radius: 45%;
+  height: 300px;
+}
+
+p {
+  margin-left: 75px;
+  font-family: 'Neucha';
+  font-size: 2rem;
+}
+
+a .information p{
+  margin-left: 75px;
+  font-family: 'Neucha';
+  font-size: 2rem;
+}
+
+footer {
+  display: inline-block;
+  width: 25%;
+  margin-left: 40%;
+}
+
+footer img {
+  height: 50px;
+  display: inline-block;
+}
+
+a{
+  text-decoration: none;
+}
+
+li a {
+  border-radius: 500px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #ff9797;
+  transition-duration: 0.5s;
+  /* tester d'autres changements ...*/
+}
+
+.active {
+  background-color: #aad8d5;
+}
