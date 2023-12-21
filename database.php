@@ -21,8 +21,12 @@ $temoignages_ecrit = [
     'titre' => '',
     'numero' => '',
     'contenu' =>'' ,
-    'auteur' =>'' ,
     'url' => '',
+    'auteur' => [
+        'nom'=> '',
+        'prenom'=>'',
+        'age'=>'',
+    ],
 ];
 $membres = [
     'nom' => '',
