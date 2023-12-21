@@ -3,8 +3,12 @@ $temoignages_bd = [
     'titre' => '',
     'numero' => '',
     'contenu' =>'' ,
-    'auteur' =>'' ,
     'url' => '',
+    'auteur' => [
+        'nom'=> '',
+        'prenom'=>'',
+        'age'=>'',
+    ],
 ];
 $temoignages_oral = [
     'titre' => '',
