@@ -73,3 +73,14 @@ footer ul{
 footer ul li img{
  max-width: 4%;
 }
+
+footer {
+  display: inline-block;
+  width: 25%;
+  margin-left: 40%;
+}
+
+footer img {
+  height: 50px;
+  display: inline-block;
+}
