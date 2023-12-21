@@ -31,23 +31,6 @@ h1 {
 text-align: center;
 }
 
-header nav ul li a {
-   text-decoration: none;
-  color:white;
-  font-size: 1.5em;
-}
-nav {
-  background-color: #478399;
-  height: 162px;
-  max-width: 100%;
-}
-
-li a:hover{
-  color: #F4AEA6 ;
-}
-.logo {
-  margin: 1%;
-}
 .preview{
   display: inline-block;
   max-width: 80%;

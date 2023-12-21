@@ -29,16 +29,15 @@ h1 {
 .texte {
 text-align: center;
 }
-
 header nav ul li a {
-   text-decoration: none;
-  color:white;
-  font-size: 1.5em;
+  text-decoration: none;
+ color:white;
+ font-size: 1.5em;
 }
 nav {
-  background-color: #478399;
-  height: 1%;
-  max-width: 100%;
+ background-color: #478399;
+ height: 162px;
+ max-width: 100%;
 }
 
 li a:hover{

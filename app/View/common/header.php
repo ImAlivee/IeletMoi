@@ -24,5 +24,3 @@
         </nav>
     </header> 
     <main>
-
-    toto
