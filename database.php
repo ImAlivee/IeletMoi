@@ -1,5 +1,19 @@
 <?php
-$temoignages = [
+$temoignages_bd = [
+    'titre' => '',
+    'numero' => '',
+    'contenu' =>'' ,
+    'auteur' =>'' ,
+    'url' => '',
+];
+$temoignages_oral = [
+    'titre' => '',
+    'numero' => '',
+    'contenu' =>'' ,
+    'auteur' =>'' ,
+    'url' => '',
+];
+$temoignages_ecrit = [
     'titre' => '',
     'numero' => '',
     'contenu' =>'' ,
@@ -13,13 +27,13 @@ $membres = [
     'url' => '',
 ];
 $menu =[
-    'Acceuil' => 'accueil.php',
+    'Accueil' => 'accueil.php',
     'Formulaire' => 'formulaire.php',
-    'Témoignage' => 'temoignages.php',
+    'Temoignage' => 'temoignages.php',
     'Présentation' => 'presentation.php',
     'Contact' => 'contact.php',
 ];
 $footer =[ 
-    'mentions' => 'mentionslegales',
+    'mentions' => 'mentions_legales.php',
     'copyright' => ' ',
 ];
