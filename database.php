@@ -22,10 +22,8 @@ $temoignages_oral = [
 
 
 $temoignages_ecrit = [
-    'titre' => '',
-    'numero' => '',
-    'contenu' =>'' ,
-    'url' => '',
+    'titre' => '';
+    'temoignages' =>'';
     'auteur' => [
         'nom'=> '',
         'prenom'=>'',
