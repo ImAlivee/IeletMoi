@@ -11,18 +11,26 @@ $temoignages_bd = [
     ],
 ];
 $temoignages_oral = [
-    'titre' => '',
-    'numero' => '',
-    'contenu' =>'' ,
-    'auteur' =>'' ,
-    'url' => '',
+    'audio' => '',
+    'resume' => '',
+    'auteur' => [
+        'nom' => '',
+        'prenom' => '',
+        'age' => '' , 
+    ]
 ];
+
+
 $temoignages_ecrit = [
     'titre' => '',
     'numero' => '',
     'contenu' =>'' ,
-    'auteur' =>'' ,
     'url' => '',
+    'auteur' => [
+        'nom'=> '',
+        'prenom'=>'',
+        'age'=>'',
+    ],
 ];
 $membres = [
     'nom' => '',
