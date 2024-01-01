@@ -11,19 +11,20 @@ $temoignages_bd = [
     ],
 ];
 $temoignages_oral = [
-    'audio' => '',
-    'resume' => '',
+    'audio' => 'Témoignage_Emma_LEMOINE.mp3',
+    'resume' => 'relation Parent et enfants, ce quon dis sans pensé aux autres affecte nimporte qui autour de nous qui entendrait nos propos',
     'auteur' => [
-        'nom' => '',
-        'prenom' => '',
+        'nom' => 'Lemoine',
+        'prenom' => 'Emma',
         'age' => '' , 
     ]
 ];
+/* ajouter témoignage de auteur: Aurore et témoignant Léo; auteur Alban témoignant Ambre ; auteur Alicia témoignant Valentin ; auteur Emilie témoignant Emma */
 
 
 $temoignages_ecrit = [
-    'titre' => '';
-    'temoignages' =>'';
+    'titre' => '',
+    'temoignages' =>'',
     'auteur' => [
         'nom'=> '',
         'prenom'=>'',
