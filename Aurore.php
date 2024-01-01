@@ -1,7 +1,8 @@
 <?php
-$css = 'temoignages.css';
+$css = 'contact.css';
+
 ob_start();
-include 'app/view/temoignages.view.php';
+include 'app/view/aurore.view.php';
 $content = ob_get_clean();
 
 include 'app/view/common/layout.php';

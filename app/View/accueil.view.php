@@ -15,7 +15,7 @@
             <input class="Témoignage" type="button" value="Dernier Témoignage" />
             <h2>Podcast</h2>
             <img scr="<?= $temoignage_oral['url'];?>">
-            <input class="Podcast" type="button" value="Dernier Podcast" /> 
+            <button onclick="window.location.href = 'Temoignages.php'">Dernier Podcast</button>
         </section>
         <section class="mascotte">
             <img src="public/image/Charadesign_A.png" width="20%">
