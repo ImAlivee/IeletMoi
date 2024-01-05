@@ -1,2 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Neucha&family=Roboto:wght@100;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Neucha&family=Roboto:wght@100;400&display=swap');   
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .carte {
+    margin-left: 100px;
+    display: inline-block;
+  }
+  
+  main {
+    inset-inline-start: 10px;
+    list-style: none;
+  }
+  
+  li{
+    display: inline-block;
+  }
+  
+  .equipe {
+    display: inline-block;
+    align-content: center;
+  }
+  
+  .carte img {
+    border-style: dashed;
+    border-color: #ff9797;
+    border-radius: 45%;
+    height: 300px;
+  }
+  
+  p {
+    margin-left: 75px;
+    font-family: 'Neucha';
+    font-size: 2rem;
+  }
+  
+  a .information p{
+    margin-left: 75px;
+    font-family: 'Neucha';
+    font-size: 2rem;
+  }
+  

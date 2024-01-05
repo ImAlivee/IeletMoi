@@ -1,7 +1,7 @@
 <h2>Notre Equipe</h2>
 <div class="equipe">
     <div class="carte">
-        <a href="">
+        <a href="Aurore.php">
             <figure>
                 <img src="https://media.discordapp.net/attachments/1153396669208084602/1180179969909981314/92_REGNIER_Aurore.jpg?ex=657c7b3f&is=656a063f&hm=f1c30113f8d931e10fd9632f9a867bf53853bbd219a8871f2baaf252edf647f5&=&format=webp&width=423&height=563" alt="photo de Aurore">
             </figure>
