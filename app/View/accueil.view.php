@@ -8,11 +8,11 @@
         <section class="preview">
             <h2>Bandes Dessinées</h2>
             <img src="<?= $temoignage_bd['url'];?>" width="20%">
-            <input class="BD" type="button" value="Dernière BD"/>
+            <button class="BD" onclick="window.location.href = 'Temoignages.php'">Derniere BD</button>
             <h2>Témoignages</h2>
             <img scr="<?= $temoignage_bd['url'];?>" width="20%">
             </p>
-            <input class="Témoignage" type="button" value="Dernier Témoignage" />
+            <button class="Témoignage" onclick="window.location.href = 'Temoignages.php'">Dernier Témoignage</button>
             <h2>Podcast</h2>
             <img scr="<?= $temoignage_oral['url'];?>">
             <button onclick="window.location.href = 'Temoignages.php'">Dernier Podcast</button>
