@@ -9,6 +9,7 @@
         </section>
 
         <section class="preview">
+            
             <h2>Rationalis</h2>
             <img scr="public\Image\profile_image-70x70.png" width="20%">
             <input class="Rationalis" type="button" value="Dernier Témoignage" />
@@ -21,7 +22,7 @@
         </section>
 
         <section class="mascotte">
-            <img src="public/image/Charadesign_A.png" width="20%">
+            <img src="" width="20%">
             <h1></h1>
             <p></p>
         </section>
