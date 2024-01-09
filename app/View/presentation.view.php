@@ -1,5 +1,24 @@
 <h2>Notre Equipe</h2>
 <div class="equipe">
+    <?php foreach ($membres as $membre) : ?>
+        <div class="carte">
+            <a href="Aurore.php">
+                <?php
+                if (isset($membre['photo'])) {
+                    $photo = $membre['photo'];
+                } else {
+                    $photo = 'defaut.png';
+                }
+                ?>
+                <figure>
+                    <img src="https://media.discordapp.net/attachments/1153396669208084602/1180179969909981314/92_REGNIER_Aurore.jpg?ex=657c7b3f&is=656a063f&hm=f1c30113f8d931e10fd9632f9a867bf53853bbd219a8871f2baaf252edf647f5&=&format=webp&width=423&height=563" alt="photo de Aurore">
+                </figure>
+                <div class="Informations">
+                    <p class="Nom"> <?= $amembre['prenom'] ?> <span><?= $amembre['nom'] ?></span> </p>
+                </div>
+            </a>
+        </div>
+    <?php endforeach ?>
     <div class="carte">
         <a href="Aurore.php">
             <figure>
@@ -71,7 +90,7 @@
         </a>
     </div>
     <div class="carte">
-        <a href="">
+        <a href="Nathan.php">
             <figure>
                 <img src="https://media.discordapp.net/attachments/1153396669208084602/1180179969486377070/74_MOUDIO_BOUENYE_Nathan.jpg?ex=657c7b3f&is=656a063f&hm=c3013929837e8bfe4035eea9ca59047e6220a9769624655273c616b50e8d0519&=&format=webp&width=423&height=563" alt="photo de Nathân">
             </figure>
