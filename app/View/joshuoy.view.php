@@ -50,6 +50,9 @@
                 <li>
                     Les mangas
                 </li>
+                <li>
+                    Le rap français (Nekfeu, Népal, Alpha Wann ect...)
+                </li>
             </ul>
             </span>
             <h2 class="quest">
