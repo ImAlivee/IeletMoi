@@ -1,4 +1,4 @@
-<section class="description">
+ <section class="description">
         <div class="texte">
         <h1 id="Page">IEL & MOI</h1>
         <h3>Vers les autres, pas à pas</h3>
@@ -13,7 +13,7 @@
     <section class="preview">
         <div class="sujets">
             <h2>Bandes Dessinées</h2>
-            <img src="images/preview_BD.svg">
+            <img src="public\Image\image Accueil\preview_BD.svg">
             <button class="BD" onclick="window.location.href = 'Temoignages.php'">Derniere BD</button>
         </div>
         <div class="sujets" id="Temoignages">
@@ -26,16 +26,19 @@
         </div>
         <div class="sujets">
             <h2>Podcast</h2>
-            <img src="images/preview_audio.svg">
+            <img src="public\Image\image Accueil\preview_audio.svg">
             <button onclick="window.location.href = 'Temoignages.php'">Dernier Podcast</button>
         </div>
     </section>
     <section class="mascotte">
         <h2>Voici A : </h2>
-        <div class="A"><img src="images/Charadesign_A.PNG" width="20%"></div>
+        <div class="A"><img src="public\Image\image Accueil\Charadesign_A.PNG" width="20%"></div>
             <div class="A">
                 <h2>A est notre Mascotte</h2>
             <p>Iel respresente les personnes Non-Binaire, Agenre, Trans ou encore Queer. C'est aussi lia* personnage principal(e) de notre vidéo de sentibilisation, Dans celle-ci lia* est effectivement non-binaire.</p>
             <p>lia* : signifie "elle" et "lui". C'est le pronoms personnels sujet qui permet de designé les personnes non-binaire ou Agenre, sans utiliser le genre masculin ou féminin !</p>
             </div>
+    </section>
+    <section>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/-MF8HU2GZ-8?si=Edao5AAvVoTvHU8Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </section>
