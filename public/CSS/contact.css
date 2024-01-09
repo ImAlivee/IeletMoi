@@ -81,3 +81,40 @@
     font-size: 17px;
     max-width: 20%;
    }
+
+   #map{
+    border-radius: 15px;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.droitem{
+    background-color: #aad8d5;
+    width: 45%;
+    height: 600px;
+    float: right;
+    margin-right: 50px;
+    padding: 30px;
+    border-radius: 15px;
+}
+#adresse{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.gauchem{
+    background-color: #aad8d5;
+    width: 45%;
+    height: 600px;
+    float: left;
+    margin-left: 50px;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: justify;
+}
+
+textarea{
+    width: 100%;
+    height: 400px;
+}

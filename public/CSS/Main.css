@@ -55,29 +55,24 @@ li a:hover{
 
 footer {
   max-width: 100%;
-  background-color: #478399;
-  
+  height:100px;
+  background-color:#478399;
+  padding-bottom:6%;
+
 }
 .footerbas {
-  
-  background-color:#F4AEA6
+  padding-top:20px;
+
 }
 .bas{
   display:inline;
-  margin:20px;
-  
+  margin-left:2%;
+  padding-left:3%; 
+  color: white;
+  text-decoration: none;
+  vertical-align: middle;
+
 }
 footer ul li img{
  max-width: 4%;
-}
-
-footer {
-  display: inline-block;
-  width: 25%;
-  margin-left: 40%;
-}
-
-footer img {
-  height: 50px;
-  display: inline-block;
 }
