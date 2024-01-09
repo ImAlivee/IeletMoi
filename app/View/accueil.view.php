@@ -11,7 +11,7 @@
         </div>
     </section>
     <section class="preview">
-        <div class="sujets">
+        <div class="sujets" id="bd">
             <h2>Bandes Dessinées</h2>
             <img src="public\Image\image Accueil\preview_BD.svg">
             <button class="BD" onclick="window.location.href = 'Temoignages.php'">Derniere BD</button>
@@ -24,7 +24,7 @@
             <p>ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
             <button class="Témoignage" onclick="window.location.href = 'Temoignages.php'">Dernier Témoignage</button>
         </div>
-        <div class="sujets">
+        <div class="sujets" id="temoign">
             <h2>Podcast</h2>
             <img src="public\Image\image Accueil\preview_audio.svg">
             <button onclick="window.location.href = 'Temoignages.php'">Dernier Podcast</button>

@@ -31,20 +31,28 @@ h1 {
 .description h3{
   font-size: 25px;
 }
+.preview{
+  max-width:100% ;
+  padding: 6%;
+}
 .sujets{
   display: inline-block;
   max-width: 80%;
   padding: 0%;
   text-align: center;
   background-color: white;
-  
+}
+#bd{
+  border-right: 2px solid #C3E3E1;
+}
+#temoign{
+  border-left: 2px solid #C3E3E1;
 }
 #Temoignages{
   max-width: 579px;
+  min-height: 30%;
   text-align: center;
   color: #478399;
-  border-right: 2px solid #C3E3E1;
-  border-left: 2px solid #C3E3E1;
 }
 
 .preview img{
@@ -78,4 +86,5 @@ h1 {
   font-size: 17px;
   height: 10%;
   margin-right: 10%;
+  margin-right: 3%;
  }
