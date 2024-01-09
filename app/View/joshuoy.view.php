@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="joshuoy.css" rel="stylesheet">
     <title>IEL & MOI</title>
-    <link rel = "icon" type = "image/png" href = "img/logo.png">
+    <link rel = "icon" type = "image/png" href = "public/image/ImagesJoshuoy/logo.png">
 </head>
 <body>
     <header>
         <nav class="menu">
             <ul>
-                <img class="logo" src="img/logo_groupe.png" width="10%"></a>
+                <img class="logo" src="public/image/ImagesJoshuoy/logo_groupe.png" width="10%"></a>
                 <li class="barre"><a href="Contact.php">Contact</a></li>
                 <li class="barre"><a href="Presentation.php">Présentation</a></li>
                 <li class="barre"><a href="Temoignages.php">Témoignage</a></li>
@@ -23,7 +23,7 @@
     <main>
         
 <div id="presentation">
-            <img class="img" src="img/moi2.JPG" width="20%">
+            <img class="img" src="public/image/ImagesJoshuoy/moi2.jpg" width="20%">
             <h2 class="quest">
                 Qui suis-je ?
             </h2>
