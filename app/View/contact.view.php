@@ -1,11 +1,11 @@
 <h1>Où nous retrouver</h1>
 
-<section class="gauche">
+<section class="gauchem">
 <p>Si vous souhaitez nous contacter pour nous donner votre témoignage ou avoir des informations 
     suplémentaires vous pouvez nous trouver Bâtiment H de l'IUT Sénart-Fontainebleau à l'adresse:
 </p>
 <P>240 Rue de la Motte 77550 Moissy-Cramayel Franc</P>
-<img src="image/map.png" alt="Google Map">
+<img src="image/map.png" alt="Google Map" id="map">
 
 <h2>Nos réseaux</h2>
 <ul>
@@ -16,7 +16,7 @@
 </ul>
 </section>
 
-<section class="droite">
+<section class="droitem">
 
     <h2>Nous envoyer un message</h2>
 
