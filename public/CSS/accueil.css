@@ -3,14 +3,17 @@
 
 .description {
   text-align: center;
-  background-image: url('public\Image\fond_credits.svg') ;
+  background-image: url('Image\fond_credits.svg') ;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 3%;
 }
+main{
+  margin-bottom: 5%;
+}
 
 .description div{
-  background-image: url('public\Image\fond1.svg');
+  background-image: url('Image\fond1.svg');
   background-size: 100%;
   background-position: center;
   padding: 10%;
@@ -19,8 +22,14 @@ h1 {
   margin-top: 25px;
   font-family: 'Neucha';
   font-size: 50px;
- text-align: center;
- padding: 1%;
+ text-align:center;
+}
+.mascotte h1{
+  margin-top: 25px;
+  font-family: 'Neucha';
+  font-size: 50px;
+ text-align:left;
+ padding-left: 23%;
 }
 .description h3,.description p{
   padding:1%;
@@ -77,9 +86,16 @@ h1 {
   float: left;
   width: 20%;
   margin-left: 19%;
+  margin-right: 5%;
  }
  .mascotte p{
  width: auto;
+ padding-right: 5%;
+ padding-top: 2%;
+ }
+ .droite{
+  padding-right: 16%;
+  padding-top: 6%;
  }
 
  .mascotte {
@@ -87,4 +103,8 @@ h1 {
   height: 10%;
   margin-right: 10%;
   margin-right: 3%;
+ }
+ .video{
+  margin-top: 14%;
+  text-align: center;
  }

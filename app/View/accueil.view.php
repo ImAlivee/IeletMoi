@@ -31,14 +31,14 @@
         </div>
     </section>
     <section class="mascotte">
-        <h2>Voici A : </h2>
-        <div class="A"><img src="public\Image\image Accueil\Charadesign_A.PNG" width="20%"></div>
-            <div class="A">
+        <h1>Voici A : </h1>
+        <div><img src="public\Image\image Accueil\Charadesign_A.PNG" width="20%"></div>
+            <div class="droite">
                 <h2>A est notre Mascotte</h2>
             <p>Iel respresente les personnes Non-Binaire, Agenre, Trans ou encore Queer. C'est aussi lia* personnage principal(e) de notre vidéo de sentibilisation, Dans celle-ci lia* est effectivement non-binaire.</p>
-            <p>lia* : signifie "elle" et "lui". C'est le pronoms personnels sujet qui permet de designé les personnes non-binaire ou Agenre, sans utiliser le genre masculin ou féminin !</p>
+            <p>Lia* : signifie "elle" et "lui". C'est le pronoms personnels sujet qui permet de designé les personnes non-binaire ou Agenre, sans utiliser le genre masculin ou féminin !</p>
             </div>
     </section>
-    <section>
+    <section class="video">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/-MF8HU2GZ-8?si=Edao5AAvVoTvHU8Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </section>
