@@ -1,5 +1,5 @@
 <?php
-$css = '.css';
+$css = 'joshuoy.css';
 
 ob_start();
 include 'app/view/joshuoy.view.php';
