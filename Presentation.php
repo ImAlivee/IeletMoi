@@ -1,4 +1,7 @@
 <?php
+
+include 'database.php';
+
 $css = 'presentation.css';
 
 ob_start();

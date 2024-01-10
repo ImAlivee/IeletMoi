@@ -40,7 +40,7 @@ $membres = [
         'url' => 'Aurore.php',
     ],
     2 => [
-        'nom' => 'Faitout-Fourmigué',
+        'nom' => 'Faitout',
         'prenom' => 'Alban',
         'photo' => 'https://media.discordapp.net/attachments/1153396669208084602/1180179970857914368/IMG_0145.JPG?ex=657c7b3f&is=656a063f&hm=405721bee469409dc95aad89aa569f981398139fa0d9d35f81e2dc5c18b5f986&=&format=webp&width=423&height=563',
         'url' => 'Alban.php',
