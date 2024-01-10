@@ -13,14 +13,14 @@ include 'database.php';
         <link href="public/CSS/<?= $css ?>" rel="stylesheet">
     <?php endif ?>
     <title>IEL & MOI</title>
-    <link rel="icon" type="image/png" href="public/image/logo.png">
+    <link rel="icon" type="image/png" href="public\Image\logo.png">
 </head>
 
 <body>
     <header>
         <nav class="menu">
             <ul>
-                <img class="logo" src="public/image/logo_groupe.png" width="10%"></a>
+                <a href="Accueil.php"><img class="logo" src="public/image/logo_groupe.png" width="10%"></a>
                 <li class="barre"><a href="Contact.php">Contact</a></li>
                 <li class="barre"><a href="Presentation.php">Présentation</a></li>
                 <li class="barre"><a href="Temoignages.php">Témoignage</a></li>
