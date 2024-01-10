@@ -1,19 +1,4 @@
-<header>
-        <nav class="menu">
-            <ul>
-                <div class="menug">
-                    <li id="desc"><a href="#description" >Description</a></li>
-                    <li><a href="#creations" id="crea">Mes créations</a></li>
-                </div>
-                <div class="menud">
-                    <li><a href="#parcours" id="par">Mon parcours</a></li>
-                    <li><a href="#contact" id="cont">Contact</a></li>
-                </div>
-            </ul>
-        </nav>
-        <img src="public/image/imagesemilie/Logo.png" alt="Logo de Tiny Emii" class="logo"/>
-    </header>
-    <main>
+
         <section class="presentation" id="description">
             <img src="public/image/imagesemilie/Autoportrait Emilie BECKER groupe 8 MMI.png" id="autoportrait">
             <div class="description">
@@ -98,13 +83,5 @@
             </ul>
     
         </section>
-    </main>
-   
-    <div id="contact">
-    <footer>
-        <a href=""><img src="public/image/imagesemilie/logo instagram.png" class="logoreseau"></a>
-        <a href=""><img src="public/image/imagesemilie/logox.png" class="logoreseau"></a>
-        <span>Contact mail : my.tiny.emii@gmail.com</span>
-        </div>
-    </footer>
+
    

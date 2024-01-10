@@ -5,35 +5,50 @@
   border-radius: 15px;
   width: 100%;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#cases{
+    margin-bottom: 800px;
 }
 
 .droitem{
     background-color: #aad8d5;
-    width: 45%;
+    width: 40%;
     height: 600px;
-    float: right;
-    margin-right: 50px;
     padding: 30px;
     border-radius: 15px;
+    float: right;
 }
 #adresse{
     font-weight: bold;
     margin-top: 10px;
 }
 
+.logos{
+    display: inline;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.logoo{
+    width: 13%;
+    margin-top: 10px;
+}
+
 .gauchem{
     background-color: #aad8d5;
-    width: 45%;
+    width: 40%;
     height: 600px;
-    float: left;
-    margin-left: 50px;
     padding: 30px;
     border-radius: 15px;
     text-align: justify;
+    float: left;
 }
 
 textarea{
     width: 100%;
     height: 400px;
 }
+
