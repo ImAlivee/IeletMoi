@@ -3,17 +3,17 @@
 
 .description {
   text-align: center;
-  background-image: url('../Image/fond_1.png') ;
+  background-image: url('../Image/fond1.svg') ;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 3%;
+
 }
 main{
   margin-bottom: 5%;
 }
 
 .description div{
-  background-image: url('../Image/fond1.svg');
+  background-image: url('../Image/fond_credits.svg');
   background-size: 100%;
   background-position: center;
   padding: 10%;
