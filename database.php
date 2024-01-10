@@ -67,13 +67,16 @@ $temoignages_oral = [
 
 
 $temoignages_ecrit = [
-    'titre' => '',
-    'temoignages' => '',
+
+    1 => [
+    'titre' => 'un peu de bienveillance',
+    'temoignages' => 'Marraine qui est passé de dire ma chérie à dire mon chérie contrairement aux parents, même si n’est pas les parents cela lui a quand même fait beaucoup de bien. Personnes qui demandent « T’es un homme ? » puis disent « Bah non ça se voit que t’en ai pas un » juste pour être méchant. Se faire interpeller par un couple dans la rue qui lui demande en boucle s’il est sûr d’être un homme. ',
     'auteur' => [
-        'nom' => '',
-        'prenom' => '',
-        'age' => '',
+        'nom' => 'Regnier',
+        'prenom' => 'Aurore',
+        'age' => '19',
     ],
+],
 ];
 
 $membres = [
