@@ -11,11 +11,11 @@
                 </div>
             </ul>
         </nav>
-        <img src="Logo.png" alt="Logo de Tiny Emii" class="logo"/>
+        <img src="public/image/imagesemilie/Logo.png" alt="Logo de Tiny Emii" class="logo"/>
     </header>
     <main>
         <section class="presentation" id="description">
-            <img src="Autoportrait Emilie BECKER groupe 8 MMI.png" id="autoportrait">
+            <img src="public/image/imagesemilie/Autoportrait Emilie BECKER groupe 8 MMI.png" id="autoportrait">
             <div class="description">
                 <p>Bonjour, je suis Emilie BECKER, une étudiante en BUT MMI. </p>
                 <p>Je suis également connue sous le pseudonyme "Tiny.Emii"</p>
