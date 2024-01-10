@@ -11,15 +11,59 @@ $temoignages_bd = [
     ],
 ];
 $temoignages_oral = [
-    'audio' => 'Témoignage_Emma_LEMOINE.mp3',
-    'resume' => 'relation Parent et enfants, ce quon dis sans pensé aux autres affecte nimporte qui autour de nous qui entendrait nos propos',
-    'auteur' => [
-        'nom' => 'Lemoine',
-        'prenom' => 'Emma',
-        'age' => '',
-    ]
+
+    1 => [
+        'audio' => 'Témoignage_Emma_LEMOINE.mp3',
+        'resume' => 'relation Parent et enfants, ce quon dis sans pensé aux autres affecte nimporte qui autour de nous qui entendrait nos propos',
+        'auteur' => [
+            'nom' => 'Lemoine',
+            'prenom' => 'Emma',
+            'age' => '18',
+        ]
+    ],
+
+    2 => [
+        'audio' => 'témoignage_Aurore_Regnier.mp3',
+        'resume' => 'Marraine qui est passé de dire ma chérie à dire mon chérie contrairement aux parents, même si n’est pas les parents cela lui a quand même fait beaucoup de bien. Personnes qui demandent « T’es un homme ? » puis disent « Bah non ça se voit que t’en ai pas un » juste pour être méchant. Se faire interpeller par un couple dans la rue qui lui demande en boucle s’il est sûr d’être un homme.',
+        'auteur' => [
+            'nom' => 'Regnier',
+            'prenom' => 'Aurore',
+            'age' => '19',
+        ]
+    ],
+
+    3 => [
+        'audio' => 'Interview_Alban_FaitoutFourmigue_GroupeM.mp3',
+        'resume' => 'Les gens ont tendances à résumé sa bisexualité à juste être Lesbienne alors que non elle aime aussi les hommes.',
+        'auteur' => [
+            'nom' => 'Faitout',
+            'prenom' => 'Alban',
+            'age' => '18',
+        ]
+    ],
+
+    4 => [
+        'audio' => 'Témoignage_Alicia_Gossiome_GroupeM.m4a',
+        'resume' => 'Une connaissance pose des questions assez méchantes sur les raisons de sa bisexualité, la question qui l’a le plus marqué étant « Il t’es arrivé quoi pour être comme ça ? »',
+        'auteur' => [
+            'nom' => 'Gossiome',
+            'prenom' => 'Alicia',
+            'age' => '18',
+        ]
+    ],  
+    
+    5 => [
+        'audio' => 'Temoignage_Emilie_BECKER_groupeM.mp3',
+        'resume' => 'Discussion en groupe qui amène à la différence de vision entre les couples gay et lesbiens, un gars du groupe trouve les couples gay dégueulasse mais va trouver un couple lesbien chaud, la même remarque avait été faite par son père',
+        'auteur' => [
+            'nom' => 'Becker',
+            'prenom' => 'Emilie',
+            'age' => '18',
+        ]
+    ], 
+
 ];
-/* ajouter témoignage de auteur: Aurore et témoignant Léo; auteur Alban témoignant Ambre ; auteur Alicia témoignant Valentin ; auteur Emilie témoignant Emma */
+
 
 
 $temoignages_ecrit = [
