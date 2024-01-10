@@ -1,4 +1,4 @@
-<h2>Notre Equipe</h2>
+<h1>Notre Equipe</h1>
 <div class="equipe">
     <?php foreach ($membres as $membre) : ?>
         <div class="carte">

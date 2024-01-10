@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Neucha&family=Roboto:wght@100;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Neucha&family=Roboto:wght@100;400&display=swap');
 
-h2 {
+h1 {
     text-align: center;
     font-family: 'Neucha';
     margin-top: 30px;
@@ -23,6 +23,7 @@ h2 {
   }
   
   .equipe {
+    padding-top: 50px;
     display: inline-block;
     align-content: center;
   }
