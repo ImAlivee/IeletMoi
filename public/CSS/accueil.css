@@ -1,83 +1,110 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Neucha&family=Roboto:wght@100;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Neucha&family=Roboto:wght@100;400&display=swap');
+
 .description {
-    text-align: center;
-    background-image: url('tindin.svg') ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 3%;
+  text-align: center;
+  background-image: url('Image\fond_credits.svg') ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 3%;
+}
+main{
+  margin-bottom: 5%;
 }
 
 .description div{
-    background-image: url('fond_credits.svg');
-    background-size: 100%;
-    background-position: center;
-    padding: 10%;
+  background-image: url('Image\fond1.svg');
+  background-size: 100%;
+  background-position: center;
+  padding: 10%;
 }
-  h1 {
-    margin-top: 25px;
-    font-family: 'Neucha';
-    font-size: 50px;
-   text-align: center;
-   padding: 1%;
-  }
-  .description h3,.description p{
-    padding:1%;
-    width: 77%;
-    margin-left: 11%;
-    font-size: 17px;
-  }
-  .description h3{
-    font-size: 25px;
-  }
-  .sujets{
-    display: inline-block;
-    max-width: 80%;
-    padding: 4%;
-    text-align: center;
-    background-color: white;
-    
-  }
-  #Temoignages{
-    max-width: 579px;
-    text-align: center;
-    color: #478399;
-    border-right: 2px solid #C3E3E1;
-    border-left: 2px solid #C3E3E1;
-  }
+h1 {
+  margin-top: 25px;
+  font-family: 'Neucha';
+  font-size: 50px;
+ text-align:center;
+}
+.mascotte h1{
+  margin-top: 25px;
+  font-family: 'Neucha';
+  font-size: 50px;
+ text-align:left;
+ padding-left: 23%;
+}
+.description h3,.description p{
+  padding:1%;
+  width: 77%;
+  margin-left: 11%;
+  font-size: 17px;
+}
+.description h3{
+  font-size: 25px;
+}
+.preview{
+  max-width:100% ;
+  padding: 6%;
+}
+.sujets{
+  display: inline-block;
+  max-width: 80%;
+  padding: 0%;
+  text-align: center;
+  background-color: white;
+}
+#bd{
+  border-right: 2px solid #C3E3E1;
+}
+#temoign{
+  border-left: 2px solid #C3E3E1;
+}
+#Temoignages{
+  max-width: 579px;
+  min-height: 30%;
+  text-align: center;
+  color: #478399;
+}
 
-  .preview img{
-    width: 260px;
-    display: inline-block;
-  }
-  .preview h2{
-    padding: 6%;
-    color: #478399;
-  }
-   button{
-    padding: 2%;
-    background-color: white;
-    color: #478399;
-    font-weight: bold;
-    font-family: 'Comfortaa';
-    border-radius: 16px;
-    margin: 5%;
-   }
-   .mascotte h2{
-    font-family: 'Neucha';
-    font-size: 30px;
-    font-weight: normal;
-   }
-   .mascotte img{
-    width: 16%;
-    padding: 0%;
-    margin-left: 20%;
-   }
-   .A{
-    display: inline-block;
-   }
+.preview img{
+  width: 260px;
+  display: inline-block;
+}
+.preview h2{
+  padding: 0%;
+  color: #478399;
+}
+ button{
+  padding: 2%;
+  background-color: white;
+  color: #478399;
+  font-weight: bold;
+  font-family: 'Comfortaa';
+  border-radius: 16px;
+  margin: 5%;
+ }
 
-   .mascotte p{
-    font-size: 17px;
-    max-width: 20%;
-   }
+ .mascotte img{
+  float: left;
+  width: 20%;
+  margin-left: 19%;
+  margin-right: 5%;
+ }
+ .mascotte p{
+ width: auto;
+ padding-right: 5%;
+ padding-top: 2%;
+ }
+ .droite{
+  padding-right: 16%;
+  padding-top: 6%;
+ }
+
+ .mascotte {
+  font-size: 17px;
+  height: 10%;
+  margin-right: 10%;
+  margin-right: 3%;
+ }
+ .video{
+  margin-top: 14%;
+  text-align: center;
+ }
