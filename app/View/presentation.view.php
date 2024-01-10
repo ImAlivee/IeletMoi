@@ -2,7 +2,7 @@
 <div class="equipe">
     <?php foreach ($membres as $membre) : ?>
         <div class="carte">
-            <a href="Aurore.php">
+            <a href="<?= $membre['url'] ?>">
                 <?php
                 if (isset($membre['photo'])) {
                     $photo = $membre['photo'];
