@@ -11,7 +11,7 @@
         <section class="preview">
             
             <h2>Rationalis</h2>
-            <img scr="public\Image\profile_image-70x70.png" width="20%">
+            <img scr="Image\imagesAurore\profile_image-70x70.png" width="20%">
             <input class="Rationalis" type="button" value="Dernier Témoignage" />
 
             <h2>Epiculture</h2>
