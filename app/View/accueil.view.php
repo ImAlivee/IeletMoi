@@ -13,16 +13,14 @@
     <section class="preview">
         <div class="sujets" id="bd">
             <h2>Bandes Dessinées</h2>
-            <img src="public\Image\image Accueil\preview_BD.svg">
+            <img src="<? $derniereBD['preview'] ?>">
             <button class="BD" onclick="window.location.href = 'Temoignages.php'">Derniere BD</button>
         </div>
         <div class="sujets" id="Temoignages">
             <h2>Témoignages</h2>
-            <img scr="" width="20%">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-            <p>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-            <p>ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-            <button class="Témoignage" onclick="window.location.href = 'Temoignages.php'">Dernier Témoignage</button>
+            <h3> <? $dernierecrit['titre'] ?></h3>
+            <p><? $dernierecrit['resume'] ?></p>
+            <button class="Témoignage" onclick="window.location.href = <? $dernierecrit['link'] ?>">Dernier Témoignage</button>
         </div>
         <div class="sujets" id="temoign">
             <h2>Podcast</h2>

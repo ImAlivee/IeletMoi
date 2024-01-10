@@ -85,7 +85,7 @@ $temoignages_ecrit = [
 
 $dernierecrit = [
     'titre' => 'un peu de bienveillance',
-    'temoignages' => 'Marraine qui est passé de dire ma chérie à dire mon chérie contrairement aux parents, même si n’est pas les parents cela lui a quand même fait beaucoup de bien. Personnes qui demandent « T’es un homme ? » puis disent « Bah non ça se voit que t’en ai pas un » juste pour être méchant. Se faire interpeller par un couple dans la rue qui lui demande en boucle s’il est sûr d’être un homme. ',
+    'resume' => 'Marraine qui est passé de dire ma chérie à dire mon chérie contrairement aux parents, même si n’est pas les parents cela lui a quand même fait beaucoup de bien. Personnes qui demandent « T’es un homme ? » puis disent « Bah non ça se voit que t’en ai pas un » juste pour être méchant. Se faire interpeller par un couple dans la rue qui lui demande en boucle s’il est sûr d’être un homme. ',
     'auteur' => [
         'nom' => 'Regnier',
         'prenom' => 'Aurore',
@@ -95,6 +95,7 @@ $dernierecrit = [
         'prénom' => 'Léo',
         'age' => '19',
     ],
+    'link' => 'Temoignages.php',
 ];
 
 $dernieroral = [
@@ -104,12 +105,13 @@ $dernieroral = [
             'nom' => 'Gossiome',
             'prenom' => 'Alicia',
             'age' => '19',
-        ]
+        ],
+    'link' => 'Temoignages.php',
 ];
 
 $derniereBD = [
     'titre' => 'un peu de bienveillance',
-    'temoignages' => 'Marraine qui est passé de dire ma chérie à dire mon chérie contrairement aux parents, même si n’est pas les parents cela lui a quand même fait beaucoup de bien.',
+    'sujet' => 'Marraine qui est passé de dire ma chérie à dire mon chérie contrairement aux parents, même si n’est pas les parents cela lui a quand même fait beaucoup de bien.',
     'auteur' => [
         'nom' => 'Regnier',
         'prenom' => 'Aurore',
@@ -119,6 +121,8 @@ $derniereBD = [
         'prénom' => 'Léo',
         'age' => '19',
     ],
+    'preview' => 'public/Image/accueil/preview_BD.svg',
+    'link' => 'Temoignages.php',
 ];
 
 $membres = [
