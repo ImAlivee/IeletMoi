@@ -1,2 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Neucha&family=Roboto:wght@100;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Neucha&family=Roboto:wght@100;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin : 0;
+    padding : 0;
+}
+
+.icone {
+    max-width: 10%;
+    background-color: white;
+    padding: 2%;
+    border-radius:30%;
+    box-shadow: #AAD8D5 0px 0 6px;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 2%;
+}
+
+h3 {
+    text-align: center;
+    padding : 3%;
+}
+
+span {
+    float :right;
+    padding :3%;
+    margin-top: 15%;
+}
+
+
+#ecrit {
+    background-image: url("IElLetmoifond2.svg");
+    padding: 6%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+#audio {
+    background-image: url("IElLetmoifond.svg");
+    padding: 6%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.temoignage {
+    margin-left: 20%;
+    margin-top: 6%;
+
+}
+
+.description {
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2%;
+    width : 40%;
+    box-shadow: #AAD8D5 0px 0 6px;
+}
+
