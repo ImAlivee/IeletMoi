@@ -1,0 +1,63 @@
+  /*Contenu*/ 
+  .qui{
+    background-color: #030120;
+    background-image: url("../Image/Aurore/fondaurore.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .sujet{
+    display: inline-block;
+    width: 40%;
+    background-color: #478399;
+    border-radius: 20px;
+    margin: 2%;
+  }
+  .projet{
+    margin: 2%;
+  }
+  .projets{
+    text-align: center;
+  }
+
+  .description{
+    color: white;
+    background-color: #030120;
+    padding-bottom: 3%;
+    padding-top: 2%;
+  }
+  
+  .sous-titre {
+    background-color: #478399;
+    color: white;
+    max-width: 20%;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 39%;
+    padding: 1%;
+  }
+  #passions li{
+    background-color: #478399;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin: 3%;
+    padding: 1.5%;
+    font-size: 20px;
+  }
+
+  .passions p{
+    width: 30%;
+    margin-left: 11%;
+    margin-right: 5%;
+    top: -32px;
+    background-color: #478399;
+    padding: 3%;
+    border-radius: 10px;
+  }
+  .inline{
+    display: inline-block;
+    align-content: center;
+    width: 40%;
+    position: relative;
+  }
+   /*Contenu*/

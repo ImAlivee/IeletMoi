@@ -1,5 +1,5 @@
 <?php
-$css = 'contact.css';
+$css = 'aurore.css';
 
 ob_start();
 include 'app/view/aurore.view.php';
