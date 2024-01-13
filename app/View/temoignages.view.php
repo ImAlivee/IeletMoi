@@ -1,8 +1,3 @@
-<div class = "raccourcis">
-    <span>Témoignages écrits</span>
-    <span>Témoignages audios</span>
-</div>
-
 <section id = "ecrit">
     <h2>Témoignages écrits</h2>
 
@@ -26,14 +21,14 @@
     <h2>Témoignages audio</h2>
 
     <div class = "temoignage_audio">
-        <img class ="icone" src =""> 
+        <img class ="icone" src ="public/Image/Temoignage/Icone_audio.svg"> 
         <!--la bande son-->
         <p>teaser du témoignage</p>
         <span>Nom, prénom, age (ou anonyme)</span>
     </div>
 
     <div class = "temoignage_audio">
-        <img class ="icone" src =""> 
+        <img class ="icone" src ="public\Image\Temoignage\Icone_livre.svg"> 
         <!--la bande son-->
         <p>teaser du témoignage</p>
         <span>Nom, prénom, age (ou anonyme)</span>

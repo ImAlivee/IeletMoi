@@ -57,6 +57,3 @@
                         Principalement je ne sais pas trop, dans l'idéal j'aimerais travailler dans en tant que présentateur télé ou bien twitch.
                 </p>
 </div>
-    </main>
-</body>
-</html>
