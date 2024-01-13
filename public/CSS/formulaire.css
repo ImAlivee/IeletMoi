@@ -1,3 +1,110 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Neucha&family=Roboto:wght@100;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Neucha&family=Roboto:wght@100;400&display=swap');
 
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image:url('motif_remastered.svg');
+    background-size:cover;
+}
+form {
+    background-color:rgb(255, 255, 255);
+    margin:auto;
+    max-width:800px;
+    padding:30px 70px 30px 70px;
+    border-radius:10px;
+}
+.form-group {
+    padding:20px;
+}
+.form-group p {
+    padding-bottom:20px;
+}
+.gauche {
+    padding-right:15px;
+}
+h1 {
+    text-align:center;
+    background-color:rgb(255, 255, 255);
+    padding:20px;
+    margin:5% 42% 5% 42%;
+    width:250px;
+    border-radius:10px;
+    font-family:'neucha';
+    color:#478399;
+}
+h3 {
+    margin-bottom:50px;
+    margin-top:20px;
+    font-family:'neucha';
+    font-size:1.3em;
+    color:#478399;
+}
+#submit {
+    height:40px;
+    width:220px;
+    margin-left:240px;
+    margin-top:50px;
+}
+.name-label {
+    font-weight:bold;
+    font-family:'neucha';
+    font-size:1.3em;
+    color:#478399;
+    cursor:default;
+}
+.form-control {
+    float:left;
+    margin: 10px 500px 30px 0px;
+    height:30px;
+    width:310px;
+    font-family:'comfortaa';
+    border:#478399 solid 2px;
+    border-style: dotted ;
+    border-radius:10px;
+    outline:none;
+}
+.form-control:focus {
+    border:#478399 2px solid;
+}
+
+textarea {
+    width:620px;
+    height:200px;
+    font-family:'comfortaa';
+    border:#478399 solid 2px;
+    border-style: dotted ;
+    border-radius:10px;
+    outline:none;
+}
+textarea:focus {
+    border:#478399 2px solid;
+}
+label {
+    font-family:'comfortaa';
+    color:#478399;
+}
+
+.submit-button {
+    color:white;
+    background-color:#478399;
+    border: 2px #AAD8D5 solid;
+    margin-bottom:50px;
+    font-weight:bold;
+    font-family:'comfortaa';
+    cursor:pointer;
+    
+}
+input {
+      cursor:pointer;
+      background-color: #478399 !important;
+
+}
+
+label:hover {
+    cursor:pointer;
+}
