@@ -15,7 +15,7 @@
                 </p>
                 </div>
                 <div class="projet">
-                <img src="PP.png" width="20%">
+                <img src="/public/Image/Aurore/PP.png" width="20%">
                 </div>
             </div>
 
@@ -25,7 +25,7 @@
                     <p>Epiculture est Une association culturel à but non-lucrative. J'appartiens a cette association et j'ai crée leurs logo et leurs charte grahique qui évolue encore aujourd'hui avec les nouveau projets en cours. Jusqu'à aujourd'hui je créais uniquement les miniature et les post instagram mais très prochainement, je prendrait aussi le rôle de monteur pour cette asssociation.</p>
                 </div>
                 <div class="projet">
-                    <img src="epicgif.gif" width="20%">
+                    <img src="/public/Image/Aurore/epicgif.gif" width="20%">
                     <a href="https://www.youtube.com/@epiculture-association/featured"><img src="https://media.discordapp.net/attachments/1042859852147474462/1190266191768465439/VS_v3.png?ex=65aa6746&is=6597f246&hm=85ec388d34703b79da6e0e732dcfa9c784e3ec141591fbcba1a401397803cae1&=&format=webp&quality=lossless&width=2382&height=1340" width="25%"></a>
                     <a href="instagram.com/epic.ulture/"></a>
                 </div>
