@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    margin : 0;
+    padding : 0;
+}
+
+body {
+    background-color: #6A8BBC;
+    background-image: url("public/Image/Emma/motif_fleur.svg");
+}
+
+img {
+    max-width: 20%;
+}
+
+
+/*----haut de page----*/
+
+.haut {
+    margin-top: 5%;
+    margin: 3%;
+    margin-left: 26%;    
+}
+
+.fleur {
+    max-width: 13%;
+}
+
+h1 {
+    background: linear-gradient(#A9B7CD, #8ea5c9 );
+    border-radius: 30px;
+    width: 40%;
+    text-align: center;
+    height:110px;
+    padding: 30px;
+    color : #DBDFE6;
+    border :  solid #E5ECF8 3px ;
+    text-shadow: #364a7a83 1px 0px 6px;
+    font-size: 2.5em;
+
+    display: inline-block ;
+    vertical-align:top;
+    margin-top : 25px;
+    font-family:Neucha;
+}
+
+span {
+    background: linear-gradient(#A9B7CD, #8ea5c9 );
+    border-radius: 20px;
+    border :  solid #E5ECF8 2px ;
+    color : #DBDFE6;
+    text-shadow: #364A7A 2px 1px 4px;
+    font-size: 1.5em;
+
+    padding : 15px;
+    display: block;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 8%;
+
+    font-family:Neucha;
+}
+
+
+/*------Les blocs-----*/
+
+.chat {
+    max-width: 15%;
+    margin-right: 76%;
+    float: left ;
+    margin-left: 50px;
+} 
+
+#boites{
+    display: inline-block;
+    margin-bottom: 100px;
+    padding-left: 14%;
+}
+
+.apropos {
+    background: linear-gradient(#E5ECF8, #b2c1d9 );
+
+    border: #A9B7CD solid 10px;
+    border-radius: 30px;
+    color : #364A7A;
+    font-size: 1.5em; 
+
+    padding : 30px;
+    text-align: center;
+    float : left;
+    width : 35%;
+    margin-right: 100px; 
+
+    font-family: Comfortaa;
+}
+
+.illumoi {
+    border: #A9B7CD solid 10px;
+    border-radius: 30px;
+    max-width: 40%;
+}
+
+
+/*-------Jeux vidéos--------*/
+
+#zelda, #splatoon, #acnh {
+    text-align:center;
+    display:inline-block;
+    vertical-align:top;
+    margin-bottom: 70px;
+}
+
+.vignette {
+    max-width: 240px;
+    border-radius: 50%;
+    margin: 70px 70px 30px 50px;
+    border: #A9B7CD solid 7px;
+    box-shadow: #364A7A 0px 0 8px
+}
+
+.games {
+    text-align: center;
+    color : #DBDFE6;
+    font-weight : bold ;
+    font-size: 1.5em;
+    border : solid 4px #364A7A; 
+    border-radius: 30px;
+    width : 80%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top : 50px;
+    margin-bottom : 100px;
+    text-shadow: #364a7a9c 1px 0px 5px;
+    font-family:Neucha;
+
+}
+
+.titre {
+    background: linear-gradient(#55699a, #364A7A );
+    border-radius: 30px;
+    width: 34%;
+    height:100px;
+    padding: 30px;
+    
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    box-shadow: #DBDFE6 0px 2px 5px;
+}
+
+h2 {
+    color : #DBDFE6;
+    text-align: center;
+    display: inline-block;
+    margin-top: 2%;
+    font-family:Neucha;
+}
+
+.etoile1 {
+    max-width: 9%;
+    float : left;
+    margin-right: 1%;
+}
+.etoile2 {
+    max-width: 9%;
+    float : right;
+}
+
+
+/*----parcours----*/
+
+
+.etoile3 {
+    max-width: 12%;
+    float : left;
+    margin-right: 1%;
+}
+.etoile4 {
+    max-width: 12%;
+    float : right;
+}
+.fleche {
+    max-width: 7%;
+    margin-left: 46%;
+    margin-top :2%
+}
+
+.liste {
+    margin-left: 20%;
+    margin-top: 5%;
+    width :100%;
+    margin-bottom: 10%;
+    background-color:#364a7a4d;
+    border-radius: 50px;
+    padding: 6%;
+    width: 60%;
+}
+
+
+li {
+    background: linear-gradient(#8ea5c9, #6179b2 );
+    text-align: center;
+    font-size: 1.5em;
+    list-style-type : none;
+    color : #d5e4fd;
+    font-weight: bold;
+    text-shadow: #364A7A 1px 1px 4px;
+    margin : 1%;
+    height : 130px;
+    border-radius: 50px;
+    box-shadow: #364A7A 0px 0 8px;
+    padding:7%;
+    font-family:comfortaa;
+}
