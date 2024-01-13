@@ -1,23 +1,41 @@
-<section class="ecrit">
-    <h1 class="titreecrit">Témoignages écrits</h1>
-    <div class="postecrit">
-        <img class="imglivre"src="public/Image/icone_livre.svg">
-        <h2>titre</h2>
-        <p class="temoignage">
-            blablabla
-        </p>
+<div class = "raccourcis">
+    <span>Témoignages écrits</span>
+    <span>Témoignages audios</span>
+</div>
+
+<section id = "ecrit">
+    <h2>Témoignages écrits</h2>
+
+    <div class = "temoignage_ecrit">
+        <img class ="icone" src =""> 
+        <h3>Titre du témoignage</h3>
+        <p>le résumé du témoignage</p>
+        <span>Nom, prénom, age (ou anonyme)</span>
     </div>
-    <div class="identite">
-        <span>nom,prénom, age (ou anonyme)</span>
+
+    <div class = "temoignage_ecrit">
+        <img class ="icone" src =""> 
+        <h3>Titre du témoignage</h3>
+        <p>le résumé du témoignage</p>
+        <span>Nom, prénom, age (ou anonyme)</span>
     </div>
-    <h1 class="titreaudio">Témoignages audio</h1>
-    <div class="postaudio">
-        <img class="imglivre"src="public/Image/icone_audio.svg">
-        <h2>titre</h2>
-        <audio src="" controls>Votre navigateur ne semble pas supporter ce fichier</audio>
-        <span> Teaser du témoignage </span>
+
+</section>
+
+<section id = "audio">
+    <h2>Témoignages audio</h2>
+
+    <div class = "temoignage_audio">
+        <img class ="icone" src =""> 
+        <!--la bande son-->
+        <p>teaser du témoignage</p>
+        <span>Nom, prénom, age (ou anonyme)</span>
     </div>
-    <div class="identite">
-        <span>nom,prénom, age (ou anonyme)</span>
+
+    <div class = "temoignage_audio">
+        <img class ="icone" src =""> 
+        <!--la bande son-->
+        <p>teaser du témoignage</p>
+        <span>Nom, prénom, age (ou anonyme)</span>
     </div>
 </section>
