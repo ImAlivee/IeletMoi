@@ -13,6 +13,7 @@
     padding: 2%;
     border-radius:30%;
     box-shadow: #AAD8D5 0px 0 6px;
+    margin-top: 3%;
 }
 
 h2 {
@@ -28,12 +29,15 @@ h3 {
 span {
     float :right;
     padding :3%;
-    margin-top: 15%;
+    margin-right: 1%;
 }
 
+audio::-webkit-media-controls-panel{
+    background-color: #AAD8D5;
+}
 
 #ecrit {
-    background-image: url("IElLetmoifond2.svg");
+    background-image: url("../Image/IElLetmoifond2.svg");
     padding: 6%;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -41,25 +45,42 @@ span {
 
 
 #audio {
-    background-image: url("IElLetmoifond.svg");
+    background-image: url("../Image/IElLetmoifond.svg");
     padding: 6%;
     background-repeat: no-repeat;
     background-size: 100%;
-
+    margin-top: 3%;
 }
 
 .temoignage {
-    margin-left: 20%;
+    margin-left: 12%;
     margin-top: 6%;
-
 }
 
-.description {
-    background-color: white;
+#ecrit .description {
     display: inline-block;
     vertical-align: top;
-    margin-left: 2%;
-    width : 40%;
+    width : 80%;    
+    background-color: white;
+    box-shadow: #AAD8D5 0px 0 6px;
+}
+
+#audio .description{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 9.5%;
+    width : 80%;
+}
+
+#audio .description p{
+    background-color: white;
+    box-shadow: #AAD8D5 0px 0 6px;
+    margin: 1%;
+    padding: 3%;
+}
+
+#audio .description span{
+    background-color: white;
     box-shadow: #AAD8D5 0px 0 6px;
 }
 

@@ -26,16 +26,16 @@
 
     <div class = "temoignage">
         <img class ="icone" src ="public/Image/Temoignage/Icone_audio.svg"> 
-        <!--la bande son-->
+        <audio src="" controls></audio>
         <div class = "description">
-            <p>teaser du témoignage</p>
+            <p>teaser du temoignage (63 caratere max)</p>
             <span>Nom, prénom, age (ou anonyme)</span>
         </div>
     </div>
 
     <div class = "temoignage">
         <img class ="icone" src ="public/Image/Temoignage/Icone_audio.svg"> 
-        <!--la bande son-->
+        <audio src="" controls></audio>
         <div class = "description">
             <p>teaser du témoignage</p>
             <span>Nom, prénom, age (ou anonyme)</span>
