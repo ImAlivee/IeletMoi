@@ -37,7 +37,7 @@
                     <p>Zelda Tears of the Kingdom</p>
                 </div>
                 <div id="splatoon">
-                    <a href ="https://splatoon.nintendo.com/fr/"><img src="public/Image/Emmasplatoon.jpg" class="vignette"></a>
+                    <a href ="https://splatoon.nintendo.com/fr/"><img src="public/Image/Emma/splatoon.jpg" class="vignette"></a>
                     <p>Splatoon 3</p>
                 </div>
                 <div id="acnh">
@@ -58,11 +58,11 @@
                 <div class ="liste">
                     <ul>
                         <li>Seconde Générale</li>
-                        <img class = "fleche" src ="public/Image/Emma/flèche bas.png">
+                        <img class = "fleche" src ="public/Image/Emma/fleche_bas.png">
                         <li>Choix des spécialités en Première : Maths, Physique et NSI</li>
-                        <img class = "fleche" src ="public/Image/Emma/flèche bas.png">
+                        <img class = "fleche" src ="public/Image/Emma/fleche_bas.png">
                         <li>Terminale : Abandon de la spécialité maths</li>
-                        <img class = "fleche" src ="public/Image/Emma/flèche bas.png">
+                        <img class = "fleche" src ="public/Image/Emma/fleche_bas.png">
                         <li>BUT MMI à l'UPEC de Sénart-Fontainebleau</li>
                     </ul>
                 </div>
