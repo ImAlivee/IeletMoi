@@ -26,7 +26,7 @@
 
     <div class = "temoignage">
         <img class ="icone" src ="public/Image/Temoignage/Icone_audio.svg"> 
-        <audio src="" controls></audio>
+        <audio src="/public/Image/Temoignage/témoignage_Aurore_Regnier.mp3" controls></audio>
         <div class = "description">
             <p>teaser du temoignage (63 caratere max)</p>
             <span>Nom, prénom, age (ou anonyme)</span>
