@@ -8,15 +8,17 @@
 }
 
 body {
-    background-image:url('motif_remastered.svg');
+    background-image:url('../Image/IElLetmoifond3.svg');
     background-size:cover;
+    background-repeat: no-repeat;
 }
 form {
     background-color:rgb(255, 255, 255);
     margin:auto;
     max-width:800px;
-    padding:30px 70px 30px 70px;
+    padding:3% 4% 3% 4%;
     border-radius:10px;
+    margin-bottom: 4%;
 }
 .form-group {
     padding:20px;
@@ -29,13 +31,14 @@ form {
 }
 h1 {
     text-align:center;
-    background-color:rgb(255, 255, 255);
-    padding:20px;
-    margin:5% 42% 5% 42%;
-    width:250px;
+    background-color: white;
+    margin:5% 40% 5% 40%;
+    width:20%;
     border-radius:10px;
     font-family:'neucha';
     color:#478399;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 h3 {
     margin-bottom:50px;
@@ -101,7 +104,7 @@ label {
 }
 input {
       cursor:pointer;
-      background-color: #478399 !important;
+      background-color: #AAD8D5 !important;
 
 }
 
