@@ -84,3 +84,15 @@ audio::-webkit-media-controls-panel{
     box-shadow: #AAD8D5 0px 0 6px;
 }
 
+/*CAROUSEL CSS */
+
+.slider{
+    display: flex;
+    overflow: auto;
+}
+.slider > div {
+    flex-shrink: 0;
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+}

@@ -1,3 +1,39 @@
+<section class="BD">
+<h3>Titre de la BD</h3>
+
+<div>
+    <div class="slider">
+    <div id="slide-1">
+      <img src="public\Image\accueil\preview_BD.svg">
+    </div>
+    <div id="slide-2">
+    <img src="public\Image\accueil\preview_BD.svg">
+    </div>
+    <div id="slide-3">
+    <img src="public\Image\accueil\preview_BD.svg">
+    </div>
+    <div id="slide-4">
+    <img src="public\Image\accueil\preview_BD.svg">
+    </div>
+    <div id="slide-5">
+    <img src="public\Image\accueil\preview_BD.svg">
+    </div>
+    <div id="slide-6">
+    <img src="public\Image\accueil\preview_BD.svg">
+    </div>
+    <div id="slide-7">
+    <img src="public\Image\accueil\preview_BD.svg">
+    </div>
+    <div id="slide-8">
+    <img src="public\Image\accueil\preview_BD.svg">
+    </div>
+    </div>
+
+    <span>Nom, prénom, age (ou anonyme)</span>
+</div>
+
+</section>
+
 <section id = "ecrit">
     <h2>Témoignages écrits</h2>
 
