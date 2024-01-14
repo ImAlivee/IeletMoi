@@ -19,6 +19,25 @@
     text-align: center;
   }
 
+  #asso{
+    background-color: #380154;
+    color: white;
+    text-shadow: black 3px 5px 10px;
+    box-shadow: #f5a849 0px 0px 10px;
+  }
+  #asso p{
+    padding: 2%;
+  }
+  #pro{
+    background-color: #030120;
+    color: white;
+    text-shadow: #3f05b3 3px 3px 5px;
+    box-shadow: #f5a849 0px 0px 10px;
+  }
+  #pro p{
+    padding: 3%;
+  }
+
   .description{
     color: white;
     background-color: #030120;
@@ -34,15 +53,19 @@
     border-radius: 20px;
     margin-left: 39%;
     padding: 1%;
+    background-color: #030120;
+    color: white;
+    box-shadow: #f5a849 0px 0px 10px;
   }
   #passions li{
-    background-color: #478399;
+    background-color: #613dcc;
     color: white;
     text-align: center;
     border-radius: 20px;
     margin: 3%;
     padding: 1.5%;
     font-size: 20px;
+    list-style: none;
   }
 
   .passions p{

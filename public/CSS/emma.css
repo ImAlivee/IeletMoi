@@ -6,7 +6,7 @@
 
 body {
     background-color: #6A8BBC;
-    background-image: url("public/Image/Emma/motif_fleur.svg");
+    background-image: url("public/Image/Emma/motif_fleur.svg"); 
 }
 
 img {
@@ -41,7 +41,7 @@ h1 {
     display: inline-block ;
     vertical-align:top;
     margin-top : 25px;
-    font-family:Neucha;
+    font-family:'Neucha';
 }
 
 span {
@@ -59,7 +59,7 @@ span {
     text-align: center;
     margin-bottom: 8%;
 
-    font-family:Neucha;
+    font-family:'Neucha';
 }
 
 
@@ -92,7 +92,7 @@ span {
     width : 35%;
     margin-right: 100px; 
 
-    font-family: Comfortaa;
+    font-family: 'Comfortaa';
 }
 
 .illumoi {

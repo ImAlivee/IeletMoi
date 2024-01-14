@@ -1,15 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Neucha&family=Roboto:wght@100;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Neucha&family=Roboto:wght@100;400&display=swap');
-
 h1 {
     text-align: center;
     font-family: 'Neucha';
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
   
   .carte {
-    margin-left: 50px;
+    margin-left: 75px;
     display: inline-block;
   }
   
@@ -40,6 +37,6 @@ h1 {
   }
   
   a .information p{
-    margin-left: 75px;
+    margin-left: 50px;
     font-size: 2rem;
   }
