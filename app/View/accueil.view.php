@@ -14,19 +14,19 @@
     <section class="preview">
         <div class="sujets" id="bd">
             <h2>Bandes Dessinées</h2>
-            <img src="<? $dernierebd['preview'] ?>">
-            <button class="BD" onclick="window.location.href = 'Temoignages.php'">Derniere BD</button>
+            <img src="<?php echo max($temoignages_bd)['url']  ?>">
+            <button class="BD" onclick="window.location.href = '<?php echo max($temoignages_bd)['link'] ?>'">Derniere BD</button>
         </div>
         <div class="sujets" id="Temoignages">
             <h2>Témoignages</h2>
-            <h3> <? $dernierecrit['titre'] ?></h3>
-            <p><? $dernierecrit['resume'] ?></p>
-            <button class="Témoignage" onclick="window.location.href = <? $dernierecrit['link'] ?>">Dernier Témoignage</button>
+            <h3> </h3>
+            <p><?php echo max($temoignages_ecrit)['resume'] ?></p>
+            <button class="Témoignage" onclick="window.location.href = '<?php echo max($temoignages_ecrit)['link'] ?>'">Dernier Témoignage</button>
         </div>
         <div class="sujets" id="temoign">
             <h2>Podcast</h2>
-            <img src="public\Image\image Accueil\preview_audio.svg">
-            <button onclick="window.location.href = '<?= $dernieroral['link']?>'">Dernier Podcast</button>
+            <img src="<?php echo max($temoignages_oral)['img'] ?>">
+            <button onclick="window.location.href = '<?php echo max($temoignages_oral)['link'] ?>'">Dernier Podcast</button>
         </div>
     </section>
 

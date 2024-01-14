@@ -1,4 +1,6 @@
 <?php
+include 'database.php';
+
 $css = 'accueil.css';
 
 ob_start();
