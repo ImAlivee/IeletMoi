@@ -4,32 +4,30 @@
 <div>
     <div class="slider">
     <div id="slide-1">
-      <img src="public\Image\accueil\preview_BD.svg">
+      <img src="public\Image\Garde_BD.png">
     </div>
     <div id="slide-2">
-    <img src="public\Image\accueil\preview_BD.svg">
+    <img src="public\Image\Garde_BD.png">
     </div>
     <div id="slide-3">
-    <img src="public\Image\accueil\preview_BD.svg">
+    <img src="public\Image\Garde_BD.png">
     </div>
     <div id="slide-4">
-    <img src="public\Image\accueil\preview_BD.svg">
+    <img src="public\Image\Garde_BD.png">
     </div>
     <div id="slide-5">
-    <img src="public\Image\accueil\preview_BD.svg">
+    <img src="public\Image\Garde_BD.png">
     </div>
     <div id="slide-6">
-    <img src="public\Image\accueil\preview_BD.svg">
+    <img src="public\Image\Garde_BD.png">
     </div>
     <div id="slide-7">
-    <img src="public\Image\accueil\preview_BD.svg">
+    <img src="public\Image\Garde_BD.png">
     </div>
     <div id="slide-8">
-    <img src="public\Image\accueil\preview_BD.svg">
+    <img src="public\Image\Garde_BD.png">
     </div>
     </div>
-
-    <span>Nom, prénom, age (ou anonyme)</span>
 </div>
 
 </section>

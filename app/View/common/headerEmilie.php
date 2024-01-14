@@ -15,7 +15,7 @@ include 'database.php';
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Arvo&family=Concert+One&display=swap" rel="stylesheet">
-<link rel = "icon" type = "image/png" href = "public\Image\ImagesEmilie\modele fleur foncée.png">
+<link rel = "icon" type = "image/png" href = "public\Image\Emilie\modele fleur foncée.png">
     <title>Tiny.Emii</title>
 
 <header>
@@ -31,6 +31,6 @@ include 'database.php';
                 </div>
             </ul>
         </nav>
-        <img src="public/image/imagesemilie/Logo.png" alt="Logo de Tiny Emii" class="logo"/>
+        <img src="public/image/Emilie/Logo.png" alt="Logo de Tiny Emii" class="logo"/>
     </header>
     <main>
