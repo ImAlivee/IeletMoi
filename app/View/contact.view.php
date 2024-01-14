@@ -1,3 +1,4 @@
+<div class="fond">
 <h1>Où nous retrouver</h1>
 
 <div id="cases">
@@ -61,7 +62,7 @@
           </div>
 
           <div class="form-group">
-            <p>Message</p> <br>
+            <p class="message">Message</p> <br>
             <textarea
               id="comments"
               class="input-textarea"
@@ -79,4 +80,5 @@
 
     </form>
 </section>
+</div>
 </div>
