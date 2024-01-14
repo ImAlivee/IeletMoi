@@ -1,19 +1,24 @@
 <?php
 $temoignages_bd = [
-    'titre' => '',
-    'numero' => '',
-    'contenu' => '',
-    'url' => '',
+1 => [
+    'link' => 'Temoignages.php',
+    'url' => '../public/Images/accueil/preview_BD.svg',
+    'titre' => 'un peu de bienveillance',
+    'sujet' => 'Marraine qui est passé de dire ma chérie à dire mon chérie contrairement aux parents, même si n’est pas les parents cela lui a quand même fait beaucoup de bien.',
     'auteur' => [
-        'nom' => '',
-        'prenom' => '',
-        'age' => '',
+        'nom' => 'Regnier',
+        'prenom' => 'Aurore',
+        'age' => '19',
     ],
-];
+    'temoignant' => [
+        'prénom' => 'Léo',
+        'age' => '19',
+    ],
+],];
 $temoignages_oral = [
 
     1 => [
-        'audio' => 'Témoignage_Emma_LEMOINE.mp3',
+        'audio' => '../public/Image/Temoignage/Témoignage_Emma_LEMOINE.mp3',
         'resume' => 'relation Parent et enfants, ce quon dis sans pensé aux autres affecte nimporte qui autour de nous qui entendrait nos propos',
         'auteur' => [
             'nom' => 'Lemoine',
@@ -23,7 +28,7 @@ $temoignages_oral = [
     ],
 
     2 => [
-        'audio' => 'témoignage_Aurore_Regnier.mp3',
+        'audio' => '../public/Image/Temoignage/témoignage_Aurore_Regnier.mp3',
         'resume' => 'Marraine qui est passé de dire ma chérie à dire mon chérie contrairement aux parents, même si n’est pas les parents cela lui a quand même fait beaucoup de bien. Personnes qui demandent « T’es un homme ? » puis disent « Bah non ça se voit que t’en ai pas un » juste pour être méchant. Se faire interpeller par un couple dans la rue qui lui demande en boucle s’il est sûr d’être un homme.',
         'auteur' => [
             'nom' => 'Regnier',
@@ -43,7 +48,8 @@ $temoignages_oral = [
     ],
 
     4 => [
-        'audio' => 'Témoignage_Alicia_Gossiome_GroupeM.m4a',
+        'audio' => '../public/Image/Temoignage/Témoignage_Alicia_Gossiome_GroupeM-.mp3',
+        'link' => 'Temoignages.php',
         'resume' => 'Une connaissance pose des questions assez méchantes sur les raisons de sa bisexualité, la question qui l’a le plus marqué étant « Il t’es arrivé quoi pour être comme ça ? »',
         'auteur' => [
             'nom' => 'Gossiome',
@@ -53,14 +59,14 @@ $temoignages_oral = [
     ],  
     
     5 => [
-        'audio' => 'Temoignage_Emilie_BECKER_groupeM.mp3',
+        'audio' => '../public/Image/Temoignage/Temoignage_Emilie_BECKER_groupeM.mp3',
         'resume' => 'Discussion en groupe qui amène à la différence de vision entre les couples gay et lesbiens, un gars du groupe trouve les couples gay dégueulasse mais va trouver un couple lesbien chaud, la même remarque avait été faite par son père',
         'auteur' => [
             'nom' => 'Becker',
             'prenom' => 'Emilie',
             'age' => '18',
         ]
-    ], 
+    ],
 
 ];
 
@@ -69,6 +75,7 @@ $temoignages_oral = [
 $temoignages_ecrit = [
 
     1 => [
+    'link' => 'Temoignages.php',
     'titre' => 'un peu de bienveillance',
     'temoignages' => 'Marraine qui est passé de dire ma chérie à dire mon chérie contrairement aux parents, même si n’est pas les parents cela lui a quand même fait beaucoup de bien. Personnes qui demandent « T’es un homme ? » puis disent « Bah non ça se voit que t’en ai pas un » juste pour être méchant. Se faire interpeller par un couple dans la rue qui lui demande en boucle s’il est sûr d’être un homme. ',
     'auteur' => [
@@ -83,47 +90,6 @@ $temoignages_ecrit = [
 ],
 ];
 
-$dernierecrit = [
-    'titre' => 'un peu de bienveillance',
-    'resume' => 'Marraine qui est passé de dire ma chérie à dire mon chérie contrairement aux parents, même si n’est pas les parents cela lui a quand même fait beaucoup de bien. Personnes qui demandent « T’es un homme ? » puis disent « Bah non ça se voit que t’en ai pas un » juste pour être méchant. Se faire interpeller par un couple dans la rue qui lui demande en boucle s’il est sûr d’être un homme. ',
-    'auteur' => [
-        'nom' => 'Regnier',
-        'prenom' => 'Aurore',
-        'age' => '19',
-    ],
-    'temoignant' => [
-        'prénom' => 'Léo',
-        'age' => '19',
-    ],
-    'link' => 'Temoignages.php',
-];
-
-$dernieroral = [
-    'audio' => 'Témoignage_Alicia_Gossiome_GroupeM.m4a',
-        'resume' => 'Une connaissance pose des questions assez méchantes sur les raisons de sa bisexualité, la question qui l’a le plus marqué étant « Il t’es arrivé quoi pour être comme ça ? »',
-        'auteur' => [
-            'nom' => 'Gossiome',
-            'prenom' => 'Alicia',
-            'age' => '19',
-        ],
-    'link' => 'Temoignages.php',
-];
-
-$derniereBD = [
-    'titre' => 'un peu de bienveillance',
-    'sujet' => 'Marraine qui est passé de dire ma chérie à dire mon chérie contrairement aux parents, même si n’est pas les parents cela lui a quand même fait beaucoup de bien.',
-    'auteur' => [
-        'nom' => 'Regnier',
-        'prenom' => 'Aurore',
-        'age' => '19',
-    ],
-    'temoignant' => [
-        'prénom' => 'Léo',
-        'age' => '19',
-    ],
-    'preview' => 'public/Image/accueil/preview_BD.svg',
-    'link' => 'Temoignages.php',
-];
 
 $membres = [
     1 => [
