@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="joshuoy.css" rel="stylesheet">
     <title>IEL & MOI</title>
-    <link rel = "icon" type = "image/png" href = "public/image/ImagesJoshuoy/logo.png">
+    <link rel = "icon" type = "image/png" href = "public/image/Joshuoy/logo.png">
 </head>
 <body>
     <main>
         
 <div id="presentation">
-            <img class="img" src="public/image/ImagesJoshuoy/moi2.jpg" width="20%">
+            <img class="img" src="public/image/Joshuoy/moi2.jpg" width="20%">
             <h2 class="quest">
                 Qui suis-je ?
             </h2>
