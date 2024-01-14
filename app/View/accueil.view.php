@@ -23,7 +23,7 @@
             <p><?php echo max($temoignages_ecrit)['resume'] ?></p>
             <button class="Témoignage" onclick="window.location.href = '<?php echo max($temoignages_ecrit)['link'] ?>'">Dernier Témoignage</button>
         </div>
-        <div class="sujets" id="temoign">
+        <div class="sujets" id="audio">
             <h2>Podcast</h2>
             <img src="<?php echo max($temoignages_oral)['img'] ?>">
             <button onclick="window.location.href = '<?php echo max($temoignages_oral)['link'] ?>'">Dernier Podcast</button>
@@ -32,7 +32,7 @@
 
     <section class="mascotte">
         <h1>Voici A : </h1>
-        <div><img src="public\Image\image Accueil\Charadesign_A.PNG" width="20%"></div>
+        <div><img src="public\Image\accueil\Charadesign_A.PNG" width="20%"></div>
             <div class="droite">
                 <h2>A est notre Mascotte</h2>
             <p>Iel respresente les personnes Non-Binaire, Agenre, Trans ou encore Queer. C'est aussi lia* personnage principal(e) de notre vidéo de sentibilisation, Dans celle-ci lia* est effectivement non-binaire.</p>
