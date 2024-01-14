@@ -1,5 +1,5 @@
 <div>
-            <h1>Formulaire</h1>
+            <h1 id="titre">Formulaire</h1>
         </div>
         <form>
             <h3>Si vous remplissez ce formulaire, ce témoignage sera publié dans le but de sensibiliser pour notre association</h3>

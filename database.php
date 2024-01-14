@@ -1,7 +1,7 @@
 <?php
 $temoignages_bd = [
 1 => [
-    'link' => 'Temoignages.php',
+    'link' => 'Temoignages.php#BD',
     'url' => 'public\Image\accueil\preview_BD.svg',
     'titre' => 'un peu de bienveillance',
     'sujet' => 'Marraine qui est passé de dire ma chérie à dire mon chérie contrairement aux parents, même si n’est pas les parents cela lui a quand même fait beaucoup de bien.',
@@ -58,7 +58,7 @@ $temoignages_oral = [
 
     5 => [
         'audio' => 'public\Image\Temoignage\Témoignage_Alicia_Gossiome_GroupeM-.mp3',
-        'link' => 'Temoignages.php',
+        'link' => 'Temoignages.php#audio',
         'img' => 'public\Image\accueil\preview_audio.svg',
         'resume' => 'Une connaissance pose des questions assez méchantes sur les raisons de sa bisexualité, la question qui l’a le plus marqué étant « Il t’es arrivé quoi pour être comme ça ? »',
         'auteur' => [
@@ -75,7 +75,7 @@ $temoignages_oral = [
 $temoignages_ecrit = [
 
     1 => [
-    'link' => 'Temoignages.php',
+    'link' => 'Temoignages.php#ecrit',
     'titre' => 'un peu de bienveillance',
     'resume' => 'Marraine qui est passé de dire ma chérie à dire mon chérie contrairement aux parents, même si n’est pas les parents cela lui a quand même fait beaucoup de bien. Personnes qui demandent « T’es un homme ? » puis disent « Bah non ça se voit que t’en ai pas un » juste pour être méchant. Se faire interpeller par un couple dans la rue qui lui demande en boucle s’il est sûr d’être un homme. ',
     'temoignage' => ' ',

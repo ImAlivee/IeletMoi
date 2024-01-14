@@ -1,4 +1,4 @@
-<section class="BD">
+<section  id ="BD">
 <h3>Titre de la BD</h3>
 
 <div>
