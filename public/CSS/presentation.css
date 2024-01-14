@@ -9,7 +9,7 @@ h1 {
   }
   
   .carte {
-    margin-left: 100px;
+    margin-left: 50px;
     display: inline-block;
   }
   
@@ -18,12 +18,11 @@ h1 {
     list-style: none;
   }
   
-  li{
+  .equipe li{
     display: inline-block;
   }
   
   .equipe {
-    padding-top: 50px;
     display: inline-block;
     align-content: center;
   }
