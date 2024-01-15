@@ -15,7 +15,7 @@
 
         <section class="Présentation">
             
-            <img class="affiche" src="portrait.png">
+            <img class="affiche" src="public/Image/Raphael/portrait.png">
             <div class="paragraphe">
                 <h3>Qui je suis?</h3>
                 <p>Bonjour, je m’appelle Raphaël Leclaire, j’ai 19 et je suis étudiant en première année en BUT MMI (métier du multimédia et de l’internet). J’ai eu mon bac dans une formation STI2D. Suite à l’obtention de mon Bac, je me suis inscrit en première année en BTS SNIR qui ne me correspondait pas. À la fin de cette année, je me suis inscrit en BUT MMI et je fus accepté.
@@ -30,10 +30,10 @@
             <h3>Mes artistes préféré</h3>
             <p> Voila quelques exemples d'artistes que j'écoute au quotidien</p>
             <div class="Son">
-                <img id="mitski" src="laufey.jpg ">
-                <img id="laufey" src="lush.jpg">
-                <img id="jazmin" src="mac.jpg">
-                <img id="tv" src="smiths.jpg">
+                <img id="mitski" src="public/Image/Raphael/laufey.jpg ">
+                <img id="laufey" src="public/Image/Raphael/lush.jpg">
+                <img id="jazmin" src="public/Image/Raphael/mac.jpg">
+                <img id="tv" src="public/Image/Raphael/smiths.jpg">
             </div>
         </section>
     </main>

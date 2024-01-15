@@ -106,6 +106,6 @@ h1,header p {
 
 main{
   width: 100%;
-  background-image: url("Motif.png");
+  background-image: url("public/Image/Raphael/Motif.png");
   background-size: cover;
 }
