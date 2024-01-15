@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+*{
+    text-decoration: none;    
+}
+
+h1,header p {
+    font-size: 2rem;
+    margin-top: 2%  ;
+    text-align: center;
+    font-family: 'Neucha';
+  } 
+
+  ul {
+    list-style-type:none;
+}
+
+  body {
+    font-size: 14px;
+    float:right;
+    font-family: 'neucha';
+    text-align: center;
+  }
+
+.texte{
+  background-color: rgb(175, 190, 143);
+  padding-top: 3%;
+  padding-bottom: 3%;
+  width: 60%;
+  border-radius: 5%;
+  box-shadow: white 0 0 0 5px ;
+    margin: auto;
+    display: inline-block;
+    margin-top: 10%;
+    text-align: center;
+}
+
+  .Présentation{
+    margin-top: 7%;
+    margin-bottom: 7%;
+  }
+
+  .paragraphe{
+    background-color:rgb(175, 190, 143);
+    box-shadow: white 0 0 0 5px ;
+    border-radius: 5%;
+    width:50%;
+    padding-bottom:3%;
+    padding-top: 2%;
+    float:right;
+    padding-left:40px;
+    margin-right:10%;
+    margin-bottom: 5%;
+  }
+
+  .paragraphe h3{
+    text-align: center;
+    padding-right:40px;
+  }
+
+
+  .affiche {    
+    max-width: 30%;
+    max-height: 30%;
+    border-radius: 210%;
+    padding: 2% 0% 0% 5%;
+    float:left;
+    margin-left: 10%;
+  }
+
+  .Présentation p{
+    width:90%
+  }
+
+  #mitski{
+    max-width: 20%;
+    max-height: 20%;
+  }
+
+  #laufey{
+    max-width: 20%;
+    max-height: 20%;
+  }
+
+  #jazmin{
+    max-width: 20%;
+    max-height: 20%;
+  }
+
+  #tv{
+    max-width: 20%;
+    max-height: 20%;
+  }
+
+  .Musique {
+    background-color:rgb(175, 190, 143);
+    border-radius: 5%;
+    box-shadow: white 0 0 0 5px  ;
+    padding-bottom: 5%;
+    max-width: 80%;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;          
+    margin-bottom: 10%;
+  }
+
+main{
+  width: 100%;
+  background-image: url("Motif.png");
+  background-size: cover;
+}
