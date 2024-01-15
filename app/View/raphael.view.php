@@ -29,6 +29,7 @@
         <section class="Musique">
             <h3>Mes artistes préféré</h3>
             <p> Voila quelques exemples d'artistes que j'écoute au quotidien</p>
+            <br>
             <div class="Son">
                 <img id="mitski" src="public/Image/Raphael/laufey.jpg ">
                 <img id="laufey" src="public/Image/Raphael/lush.jpg">
