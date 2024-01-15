@@ -7,6 +7,7 @@
 body {
     background-color: #6A8BBC;
     background-image: url("../Image/Emma/motif_fleur.svg"); 
+    background-size: cover ;
 }
 
 img {
@@ -17,7 +18,7 @@ img {
 /*----haut de page----*/
 
 .haut {
-    margin-top: 5%;
+    margin-top: 8%;
     margin: 3%;
     margin-left: 26%;    
 }
@@ -57,7 +58,7 @@ span {
     width: 40%;
     margin: auto;
     text-align: center;
-    margin-bottom: 8%;
+    margin-bottom: 6%;
 
     font-family:'Neucha';
 }
@@ -198,7 +199,7 @@ h2 {
 }
 
 
-li {
+.contenu {
     background: linear-gradient(#8ea5c9, #6179b2 );
     text-align: center;
     font-size: 1.5em;

@@ -57,12 +57,12 @@
 
                 <div class ="liste">
                     <ul>
-                        <li>Seconde Générale</li>
+                        <li class ="contenu">Seconde Générale</li>
                         <img class = "fleche" src ="public/Image/Emma/fleche_bas.png">
-                        <li>Choix des spécialités en Première : Maths, Physique et NSI</li>
+                        <li class ="contenu">Choix des spécialités en Première : Maths, Physique et NSI</li>
                         <img class = "fleche" src ="public/Image/Emma/fleche_bas.png">
-                        <li>Terminale : Abandon de la spécialité maths</li>
+                        <li class ="contenu">Terminale : Abandon de la spécialité maths</li>
                         <img class = "fleche" src ="public/Image/Emma/fleche_bas.png">
-                        <li>BUT MMI à l'UPEC de Sénart-Fontainebleau</li>
+                        <li class ="contenu">BUT MMI à l'UPEC de Sénart-Fontainebleau</li>
                     </ul>
                 </div>
