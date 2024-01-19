@@ -4,10 +4,10 @@
 <div>
     <div class="slider">
     <div id="slide-1">
-      <img src="public\Image\Garde_BD.png">
+      <img src="public\Image\BD\1.png">
     </div>
     <div id="slide-2">
-    <img src="public\Image\Garde_BD.png">
+    <img src="public\Image\BD\2.png">
     </div>
     <div id="slide-3">
     <img src="public\Image\Garde_BD.png">
