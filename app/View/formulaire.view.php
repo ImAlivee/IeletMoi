@@ -12,14 +12,14 @@
                     type="radio"
                     class="input-radio"
                     checked
-                  />Alliés</label>
+                  /> Alliés</label>
                 <label>
                   <input
                     name="user-recommend"
                     value="lgbtqia"
                     type="radio"
                     class="input-radio"
-                  />LGBTQIA+</label>
+                  /> LGBTQIA+</label>
             </div>
             <div class="form-group">
                 <p>Souhaitez-vous que ce témoignage soit anonyme ? </p>
@@ -30,14 +30,14 @@
                     type="radio"
                     class="input-radio"
                     checked
-                  />Non</label>
+                  /> Non</label>
                 <label>
                   <input
                     name="user-recommend"
                     value="Oui"
                     type="radio"
                     class="input-radio"
-                  />Oui</label>
+                  /> Oui</label>
             </div>
             <div class="form-group">
                 <p>Si "Non" :</p>
@@ -99,7 +99,7 @@
                     type="checkbox"
                     class="input-checkbox"
                     checked
-                  />Audio</label
+                  /> Audio</label
                 >
                 <label>
                   <input
@@ -107,7 +107,7 @@
                     value="bd"
                     type="checkbox"
                     class="input-checkbox"
-                  />BD</label
+                  /> BD</label
                 >
           
                 <label
@@ -116,7 +116,7 @@
                     value="ecrit"
                     type="checkbox"
                     class="input-checkbox"
-                  />Ecrit</label>
+                  /> Ecrit</label>
             </div>
             <div class="form-group">
                 <button type="submit" id="submit" class="submit-button">
