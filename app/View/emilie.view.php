@@ -81,7 +81,7 @@
                 <span class="date">2023/2024</span>
                 <li>Première année de BUT MMI</li>
             </ul>
-    
+
         </section>
 
    
