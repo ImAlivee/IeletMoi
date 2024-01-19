@@ -38,7 +38,7 @@ audio::-webkit-media-controls-panel{
 
 #ecrit {
     background-image: url("../Image/IElLetmoifond2.svg");
-    opacity: .9;
+    filter: blur(4px);
     padding: 6%;
     background-repeat: no-repeat;
     background-size: 100%;
