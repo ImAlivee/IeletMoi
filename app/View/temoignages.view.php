@@ -69,11 +69,11 @@
 
      <div class = "temoignage">
         <img class ="icone" src ="public/Image/Temoignage/Icone_audio.svg"> 
-        <audio src="<?php echo max($temoignages_oral)['audio']?>" controls></audio>
+        <audio src="<?php echo $temoignage[1]['audio']; ?>" controls></audio>
         <div class = "description">
-            <p><?php echo max($temoignages_oral)['resume']?></p>
+            <p><?php echo $temoignage[1]['resume'];?></p>
             <span> <?php 
-                $auteur = $temoignages_oral['auteur'];
+                $auteur = $temoignages_oral[1]['auteur'];
                 echo $auteur['nom'] . ' ' . $auteur['prenom'] . ', ' . $auteur['age'] . ' ans';
             ?></span>
         </div>
