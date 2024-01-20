@@ -58,6 +58,14 @@
 <section id = "audio">
     <h2>Témoignages audio</h2>
 
+    <?php 
+shuffle($temoignages_oral);
+
+$deuxTemoignages = array_slice($temoignages_oral, 0, 2);
+
+foreach ($deuxTemoignages as $temoignage) : 
+?>
+
 <?php foreach ($temoignages_oral as $temoignage) : ?>
     <div class="temoignage">
         <img class="icone" src="public/Image/Temoignage/Icone_audio.svg"> 
@@ -74,5 +82,5 @@
     </div>
 <?php endforeach; ?>
 
-    </section>
+</section>
     
