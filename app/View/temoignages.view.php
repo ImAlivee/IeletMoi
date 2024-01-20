@@ -83,4 +83,3 @@ foreach ($deuxTemoignages as $temoignage) :
 <?php endforeach; ?>
 
 </section>
-    
