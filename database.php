@@ -38,7 +38,7 @@ $temoignages_oral = [
     ],
 
     3 => [
-        'audio' => 'Interview_Alban_FaitoutFourmigue_GroupeM.mp3',
+        'audio' => '../public/Image/Interview_Alban_FaitoutFourmigue_GroupeM.mp3',
         'resume' => 'Les gens ont tendances à résumé sa bisexualité à juste être Lesbienne alors que non elle aime aussi les hommes.',
         'auteur' => [
             'nom' => 'Faitout',
@@ -57,7 +57,7 @@ $temoignages_oral = [
     ],
 
     5 => [
-        'audio' => 'public\Image\Temoignage\Témoignage_Alicia_Gossiome_GroupeM-.mp3',
+        'audio' => 'public/Image/Temoignage/Témoignage_Alicia_Gossiome_GroupeM-.mp3',
         'link' => 'Temoignages.php#audio',
         'img' => 'public\Image\accueil\preview_audio.svg',
         'resume' => 'Une connaissance pose des questions assez méchantes sur les raisons de sa bisexualité, la question qui l’a le plus marqué étant « Il t’es arrivé quoi pour être comme ça ? »',
