@@ -73,7 +73,7 @@
         <div class = "description">
             <p><?php echo max($temoignages_oral)['resume']?></p>
             <span> <?php 
-                $auteur = $temoignages_oral[1]['auteur'];
+                $auteur = $temoignages_oral['auteur'];
                 echo $auteur['nom'] . ' ' . $auteur['prenom'] . ', ' . $auteur['age'] . ' ans';
             ?></span>
         </div>
