@@ -72,7 +72,7 @@
         <audio src="<?php echo max($temoignages_oral)['audio']?>" controls></audio>
         <div class = "description">
             <p><?php echo max($temoignages_oral)['resume']?></p>
-            <span><?php echo ($temoignages_oral)['auteur']?></span>
+            <span> <?php echo ($temoignages_oral)['auteur']['nom']['prenom']['age'] ?></span>
         </div>
     </div>
 </section>
