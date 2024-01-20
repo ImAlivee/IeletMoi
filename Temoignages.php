@@ -1,4 +1,7 @@
 <?php
+
+include 'database.php';
+
 $css = 'temoignage.css';
 
 ob_start();

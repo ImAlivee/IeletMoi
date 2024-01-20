@@ -62,17 +62,19 @@
         <img class ="icone" src ="public/Image/Temoignage/Icone_audio.svg"> 
         <audio src="../public/Image/Temoignage/témoignage_Aurore_Regnier.mp3" controls></audio>
         <div class = "description">
-            <p>teaser du temoignage (63 caratere max)</p>
+            <p><?php echo max($temoignages_oral)['resume'] ?></p>
             <span>Nom, prénom, age (ou anonyme)</span>
         </div>
     </div>
 
-    <div class = "temoignage">
+     <div class = "temoignage">
         <img class ="icone" src ="public/Image/Temoignage/Icone_audio.svg"> 
-        <audio src="../public/Image/Temoignage/Témoignage_Alicia_Gossiome_GroupeM-.mp3" controls></audio>
+        <audio src="<?php ($temoignages_oral)['audio']?>" controls></audio>
         <div class = "description">
-            <p>teaser du témoignage</p>
-            <span>Nom, prénom, age (ou anonyme)</span>
+            <p><?php ($temoignages_oral)['resume']?></p>
+            <span><?php ($temoignages_oral)['auteur']?></span>
         </div>
     </div>
 </section>
+    
+  

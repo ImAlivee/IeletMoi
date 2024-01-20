@@ -23,7 +23,7 @@ include 'database.php';
                 <a href="Accueil.php"><img class="logo" src="public/image/logo_groupe.png" width="10%"></a>
                 <li class="barre"><a href="Contact.php">Contact</a></li>
                 <li class="barre"><a href="Presentation.php">Présentation</a></li>
-                <li class="barre"><a href="Temoignages.php">Témoignage</a></li>
+                <li class="barre"><a href="Temoignages.php">Témoignages</a></li>
                 <li class="barre"><a href="formulaire.php">Formulaire</a></li>
                 <li class="barre"><a href="Accueil.php">Accueil</a></li>
             </ul>
