@@ -66,7 +66,7 @@
     ?>
         <div class="temoignage">
             <img class="icone" src="public/Image/Temoignage/Icone_audio.svg"> 
-            <audio src="<?php echo $temoignage['audio']; ?>" controls></audio>
+            <audio src="<?php echo $temoignage['audio']; ?>" ></audio>
             <div class="description">
                 <p><?php echo $temoignage['resume']; ?></p>
                 <span>
