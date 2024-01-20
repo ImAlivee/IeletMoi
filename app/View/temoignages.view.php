@@ -55,31 +55,27 @@
 
 </section>
 
-<section id = "audio">
+<section id="audio">
     <h2>Témoignages audio</h2>
 
     <?php 
-shuffle($temoignages_oral);
+    shuffle($temoignages_oral);
+    $deuxTemoignages = array_slice($temoignages_oral, 0, 2);
 
-$deuxTemoignages = array_slice($temoignages_oral, 0, 2);
-
-foreach ($deuxTemoignages as $temoignage) : 
-?>
-
-<?php foreach ($temoignages_oral as $temoignage) : ?>
-    <div class="temoignage">
-        <img class="icone" src="public/Image/Temoignage/Icone_audio.svg"> 
-        <audio src="<?php echo $temoignage['audio']; ?>" controls></audio>
-        <div class="description">
-            <p><?php echo $temoignage['resume']; ?></p>
-            <span>
-                <?php 
-                    $auteur = $temoignage['auteur'];
-                    echo $auteur['nom'] . ' ' . $auteur['prenom'] . ', ' . $auteur['age'] . ' ans';
-                ?>
-            </span>
+    foreach ($deuxTemoignages as $temoignage) : 
+    ?>
+        <div class="temoignage">
+            <img class="icone" src="public/Image/Temoignage/Icone_audio.svg"> 
+            <audio src="<?php echo $temoignage['audio']; ?>" controls></audio>
+            <div class="description">
+                <p><?php echo $temoignage['resume']; ?></p>
+                <span>
+                    <?php 
+                        $auteur = $temoignage['auteur'];
+                        echo $auteur['nom'] . ' ' . $auteur['prenom'] . ', ' . $auteur['age'] . ' ans';
+                    ?>
+                </span>
+            </div>
         </div>
-    </div>
-<?php endforeach; ?>
-
+    <?php endforeach; ?>
 </section>
