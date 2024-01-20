@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p{
+    color: white;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+body{
+    background-image: url("../Image/alban/background.png");
+    background-size: cover;
+}
+
+main{
+    text-align: center;
+}
+
+img{
+    border-radius: 10px;
+}
+
+h1{
+    background: linear-gradient(rgba(124, 203, 232, 0.75),rgba(118, 124, 183, 0.75));
+    border: 3px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    color: white;
+    margin-bottom: 15px;
+}
+
+h2{
+    background: linear-gradient(rgba(124, 203, 232, 0.75),rgba(118, 124, 183, 0.75));
+    border: 3px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.gojo{
+    width: 75px;
+}
+
+h3{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 2.0rem;
+}
+
+.titre{
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+#haut{
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+#haut-gauche{
+    width: 40%;
+    background: linear-gradient(rgba(124, 203, 232, 0.75),rgba(118, 124, 183, 0.75));
+    border: 3px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    
+    margin-right: 5%;
+}
+
+#haut-droite{
+    width: 40%;
+    background: linear-gradient(rgba(124, 203, 232, 0.75),rgba(118, 124, 183, 0.75));
+    border: 3px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+#picrew{
+    width: 95%;
+}
+
+#jv{
+    background: linear-gradient(rgba(124, 203, 232, 0.75),rgba(118, 124, 183, 0.75));
+    border: 3px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    width: 85%;
+    display: inline-block;
+    padding: 20px;
+    margin-bottom: 3%;
+}
+.jeux{
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2%;
+    padding-left: 1%;
+    border-radius: 10px;
+}
+
+#anime{
+    background: linear-gradient(rgba(124, 203, 232, 0.75),rgba(118, 124, 183, 0.75));
+    border: 3px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    width: 85%;
+    display: inline-block;
+    padding: 20px;
+    margin-bottom: 3%;
+}
+.manga{
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2%;
+    padding-left: 1%;
+}
+
+#chanson{
+    background: linear-gradient(rgba(124, 203, 232, 0.75),rgba(118, 124, 183, 0.75));
+    border: 3px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    width: 85%;
+    display: inline-block;
+    padding: 20px;
+    margin-bottom: 3%;
+}
+.musique{
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2%;
+    padding-left: 1%;
+    border-radius: 10px;
+}
