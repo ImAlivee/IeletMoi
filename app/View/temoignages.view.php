@@ -58,15 +58,6 @@
 <section id = "audio">
     <h2>Témoignages audio</h2>
 
-    <div class = "temoignage">
-        <img class ="icone" src ="public/Image/Temoignage/Icone_audio.svg"> 
-        <audio src="<?php echo max($temoignages_oral)['audio']?>" controls></audio>
-        <div class = "description">
-            <p><?php echo max($temoignages_oral)['resume']?></p>
-            <span><?php echo ($temoignages_oral)['auteur']?></span>
-        </div>
-    </div>
-
 <?php foreach ($temoignages_oral as $temoignage) : ?>
     <div class="temoignage">
         <img class="icone" src="public/Image/Temoignage/Icone_audio.svg"> 
