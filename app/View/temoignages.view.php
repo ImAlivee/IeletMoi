@@ -67,17 +67,21 @@
         </div>
     </div>
 
-     <div class = "temoignage">
-        <img class ="icone" src ="public/Image/Temoignage/Icone_audio.svg"> 
+<?php foreach ($temoignages_oral as $temoignage) : ?>
+    <div class="temoignage">
+        <img class="icone" src="public/Image/Temoignage/Icone_audio.svg"> 
         <audio src="<?php echo $temoignage['audio']; ?>" controls></audio>
-        <div class = "description">
-            <p><?php echo $temoignage['resume'];?></p>
-            <span> <?php 
-                $auteur = $temoignages_oral[1]['auteur'];
-                echo $auteur['nom'] . ' ' . $auteur['prenom'] . ', ' . $auteur['age'] . ' ans';
-            ?></span>
+        <div class="description">
+            <p><?php echo $temoignage['resume']; ?></p>
+            <span>
+                <?php 
+                    $auteur = $temoignage['auteur'];
+                    echo $auteur['nom'] . ' ' . $auteur['prenom'] . ', ' . $auteur['age'] . ' ans';
+                ?>
+            </span>
         </div>
     </div>
-</section>
+<?php endforeach; ?>
+
+    </section>
     
-  
