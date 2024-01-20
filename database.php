@@ -46,17 +46,8 @@ $temoignages_oral = [
             'age' => '18',
         ]
     ],
+   
     4 => [
-        'audio' => 'public/Image/Temoignage/Temoignage_Emilie_BECKER_groupeM.mp3',
-        'resume' => 'Discussion en groupe qui amène à la différence de vision entre les couples gay et lesbiens, un gars du groupe trouve les couples gay dégueulasse mais va trouver un couple lesbien chaud, la même remarque avait été faite par son père',
-        'auteur' => [
-            'nom' => 'Becker',
-            'prenom' => 'Emilie',
-            'age' => '18',
-        ]
-    ],
-
-    5 => [
         'audio' => 'public/Image/Temoignage/Temoignage_Alicia_Gossiome_GroupeM-.mp3',
         'link' => 'Temoignages.php#audio',
         'img' => 'public\Image\accueil\preview_audio.svg',
