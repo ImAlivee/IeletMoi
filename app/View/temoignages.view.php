@@ -60,19 +60,19 @@
 
     <div class = "temoignage">
         <img class ="icone" src ="public/Image/Temoignage/Icone_audio.svg"> 
-        <audio src="<?php ($temoignages_oral)['audio']?>" controls></audio>
+        <audio src="<?php echo($temoignages_oral)['audio']?>" controls></audio>
         <div class = "description">
-            <p><?php ($temoignages_oral)['resume']?></p>
-            <span><?php ($temoignages_oral)['auteur']?></span>
+            <p><?php echo($temoignages_oral)['resume']?></p>
+            <span><?php echo($temoignages_oral)['auteur']?></span>
         </div>
     </div>
 
      <div class = "temoignage">
         <img class ="icone" src ="public/Image/Temoignage/Icone_audio.svg"> 
-        <audio src="<?php ($temoignages_oral)['audio']?>" controls></audio>
+        <audio src="<?php echo($temoignages_oral)['audio']?>" controls></audio>
         <div class = "description">
-            <p><?php ($temoignages_oral)['resume']?></p>
-            <span><?php ($temoignages_oral)['auteur']?></span>
+            <p><?php echo($temoignages_oral)['resume']?></p>
+            <span><?php echo($temoignages_oral)['auteur']?></span>
         </div>
     </div>
 </section>
