@@ -8,6 +8,9 @@
             <li class="bas" id="copy"><a class="" href=" ">copyright</a></li>
             <li class="bas"><a href=" ">Mentions légales</a></li>
         </ul>
+        <div class="copyrights">
+        <p>&copy; <?php echo date("Y"); ?> copyright</p>    
+        </div>
     </footer>
 </body>
 </html>
