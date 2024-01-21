@@ -52,14 +52,22 @@
 
     <h3><?= $temoignages_bd['1']['titre'] ?></h3>
 
-    <?php
-   $slide = $temoignages_bd['1']['slides'];
-    foreach($slide as $slides) :
-    ?>
+
         <div class="slider">
+
+            <?php
+            $slide = $temoignages_bd['1']['bd'];
+            foreach($slide as $bd) : 
+            ?>
+
             <div id="slide">
-            <img src="public/image/BD/<?= $slide ?>">
+            <img src="public/image/BD/<?=$slide['slide1']?>"> 
             </div>
+
+            <?php endforeach; ?>
+
         </div>
-    <?php endforeach; ?>
+
+
 </section>
+    

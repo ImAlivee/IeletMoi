@@ -6,7 +6,7 @@ $temoignages_bd = [
     'sujet' => "Un inconnu n'arrête pas de me demander si je suis un homme.",
     'temoignant-prenom' => 'Léo',
     'temoignant-age' => '19',
-    'slides' => [
+    'bd' => [
         'slide1' => '1.png',
         'slide2' => '2.png',
         'slide3' => '3.png',
@@ -86,49 +86,49 @@ $membres = [
         'nom' => 'Regnier',
         'prenom' => 'Aurore',
         'photo' => 'https://media.discordapp.net/attachments/1153396669208084602/1180179969909981314/92_REGNIER_Aurore.jpg?ex=657c7b3f&is=656a063f&hm=f1c30113f8d931e10fd9632f9a867bf53853bbd219a8871f2baaf252edf647f5&=&format=webp&width=423&height=563',
-        'url' => 'Aurore.php',
+        3 => 'Aurore.php',
     ],
     2 => [
         'nom' => 'Faitout',
         'prenom' => 'Alban',
         'photo' => 'https://media.discordapp.net/attachments/1153396669208084602/1180179970857914368/IMG_0145.JPG?ex=657c7b3f&is=656a063f&hm=405721bee469409dc95aad89aa569f981398139fa0d9d35f81e2dc5c18b5f986&=&format=webp&width=423&height=563',
-        'url' => 'Alban.php',
+        3 => 'Alban.php',
     ],
     3 => [
         'nom' => 'Leclaire',
         'prenom' => 'Raphaël',
         'photo' => 'https://media.discordapp.net/attachments/1153396669208084602/1180179968580403281/57_LECLAIRE_Raphael.jpg?ex=657c7b3f&is=656a063f&hm=b6f0c8706e3c6bcff56708d6c4f8491a2589bc2254570126b694a806f18a2d20&=&format=webp&width=423&height=563',
-        'url' => 'Raphael.php',
+        3 => 'Raphael.php',
     ],
     4 => [
         'nom' => 'Martin',
         'prenom' => 'Joshuoy',
         'photo' => 'https://media.discordapp.net/attachments/1153396669208084602/1180179969075322970/64_MARTIN_Joshuoy.jpg?ex=657c7b3f&is=656a063f&hm=8c3cc352636e39d8368f7b734393171049e43bef8c9cac68a189607c7682f723&=&format=webp&width=423&height=563',
-        'url' => 'Joshuoy.php',
+        3 => 'Joshuoy.php',
     ],
     5 => [
         'nom' => 'Becker',
         'prenom' => 'Émilie',
         'photo' => 'https://media.discordapp.net/attachments/1153396669208084602/1180179967414378566/9_BECKER_Emilie.jpg?ex=657c7b3e&is=656a063e&hm=d55cdc4e7a034e843b6dc0b1b8ad4fe4ecd3c7549f624d065375aec6bac97d1a&=&format=webp&width=423&height=563',
-        'url' => 'Emilie.php',
+        3 => 'Emilie.php',
     ],
     6 => [
         'nom' => 'Lemoine',
         'prenom' => 'Emma',
         'photo' => 'https://media.discordapp.net/attachments/1153396669208084602/1180179970383945819/image0.jpg?ex=657c7b3f&is=656a063f&hm=7d7f41304e881723dfe9717afbea097c5a8c4116ccf114ebf3244e686c9995ef&=&format=webp&width=423&height=563',
-        'url' => 'Emma.php',
+        3 => 'Emma.php',
     ],
     7 => [
         'nom' => 'Gossiome',
         'prenom' => 'Alicia',
         'photo' => 'https://media.discordapp.net/attachments/1153396669208084602/1180179968060313760/43_GOSSIOME_Alicia.jpg?ex=657c7b3f&is=656a063f&hm=615de7e4b1f2faadee0cda007d65d6b8f4194e3e07216f4a5d6c5524e453669c&=&format=webp&width=423&height=563',
-        'url' => 'Alicia.php',
+        3 => 'Alicia.php',
     ],
     8 => [
         'nom' => 'Moudio',
         'prenom' => 'Nathân',
         'photo' => 'https://media.discordapp.net/attachments/1153396669208084602/1180179969486377070/74_MOUDIO_BOUENYE_Nathan.jpg?ex=657c7b3f&is=656a063f&hm=c3013929837e8bfe4035eea9ca59047e6220a9769624655273c616b50e8d0519&=&format=webp&width=423&height=563',
-        'url' => 'Nathan.php',
+        3 => 'Nathan.php',
     ],
 ];
 $menu = [
@@ -146,37 +146,37 @@ $footer = [
 $menu =[
 
     1 => [
-        'url' => 'https://instagram.com/iel_et_moi?igshid=MTk0NTkyODZkYg==',
+        3 => 'https://instagram.com/iel_et_moi?igshid=MTk0NTkyODZkYg==',
         'image' =>'https://media.discordapp.net/attachments/1176540000129663017/1180149569628155955/D82BC583-0D26-4FE5-A1AB-21605F8A9A64.png?ex=657c5eef&is=6569e9ef&hm=cea5bbf7699a3d109f64e8ae31e262bdf33eba5351899d627dac0aa5fb2c6c8f&=&format=webp&quality=lossless&width=1200&height=1200"',
         'title' => 'Instagram',
     ],
     
     2 => [
-        'url' => 'https://www.youtube.com/',
+        3 => 'https://www.youtube.com/',
         'image' =>'https://media.discordapp.net/attachments/1176540000129663017/1180152572607213689/FF531FAF-1C02-40D2-BD88-64BFEC4DF070.png?ex=65aa863b&is=6598113b&hm=c3d5e4ae29cbb3a0aa9555d2ee69ba5750e9c15bf3feb0ca7084033aed18c7e5&=&format=webp&quality=lossless&width=662&height=662',
         'title' => 'Youtube',
     ],
     
     3 => [
-        'url' => 'https://open.spotify.com/intl-fr',
+        3 => 'https://open.spotify.com/intl-fr',
         'image' =>'https://media.discordapp.net/attachments/1176540000129663017/1194645010524672070/965AE9DB-DD45-4102-9D53-6480E7BE6EBB.png?ex=65b11add&is=659ea5dd&hm=34c5980c887673ccb74eb2a43f054ae715ccf67af49d88a03330370913650c00&=&format=webp&quality=lossless&width=662&height=662',
         'title' => 'Spotify',
     ],
     
     4 => [
-        'url' => 'https://www.tiktok.com/fr/',
+        3 => 'https://www.tiktok.com/fr/',
         'image' =>'https://media.discordapp.net/attachments/1176540000129663017/1180153971487293440/94D3F527-14F4-4C17-AD0E-A19D8799BFED.png?ex=65aa8789&is=65981289&hm=f930fe15444d017ba6661075a47e19bf7872f66b1e778a77b56494fdf9801ba1&=&format=webp&quality=lossless&width=662&height=662',
         'title' => 'TikTok',
     ],
     
     5 => [
-        'url' => '',
+        3 => '',
         'image' =>'',
         'title' => 'Copyrights',
     ],
     
     6 => [
-        'url' => '',
+        3 => '',
         'image' =>'',
         'title' => 'Mentions légale',
     ],
