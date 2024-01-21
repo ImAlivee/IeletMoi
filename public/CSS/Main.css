@@ -33,6 +33,7 @@ header nav ul li a {
   text-decoration: none;
  color:white;
  font-size: 1.5em;
+ max-width: auto;
 }
 nav {
  background-color: #478399;
