@@ -62,7 +62,8 @@ footer {
 }
 
 footer p {
- float: right; 
+ float: right;
+height: 50px;
 }
 
 .bas{
