@@ -7,7 +7,6 @@
             <li class="bas"><a href=" "><img src="https://media.discordapp.net/attachments/1176540000129663017/1180152572607213689/FF531FAF-1C02-40D2-BD88-64BFEC4DF070.png?ex=657c61bb&is=6569ecbb&hm=a9b6035d20aba6e7e43f9a204bfe62f5d92817c435386290ba1309a6fa49186b&=&format=webp&quality=lossless&width=1200&height=1200"></a></li>
             <li class="bas" id="copy"><a class="" href=" "><p>Mentions légales - <?php echo date("Y"); ?> Copyright</p></a></li>
         </ul>
-
     </footer>
 </body>
 </html>
