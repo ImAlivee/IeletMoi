@@ -37,7 +37,7 @@ audio::-webkit-media-controls-panel{
 }
 
 #ecrit {
-    background: url("../Image/IElLetmoifond2.svg") linear-gradient(rgba(255, 255, 255, 0.137),rgba(255, 255, 255, 0.256));
+    background-image: url("../Image/IElLetmoifond2.svg");
     padding: 6%;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -45,7 +45,7 @@ audio::-webkit-media-controls-panel{
 
 
 #audio {
-    background: url("../Image/IElLetmoifond.svg") linear-gradient(rgba(255, 255, 255, 0.274),rgba(255, 255, 255, 0.274));
+    background-image: url("../Image/IElLetmoifond.svg");
     padding: 6%;
     background-repeat: no-repeat;
     background-size: 100%;
