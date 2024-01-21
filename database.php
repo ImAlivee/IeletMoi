@@ -2,19 +2,24 @@
 $temoignages_bd = [
 1 => [
     'link' => 'Temoignages.php#BD',
-    'url' => 'public\Image\accueil\preview_BD.svg',
-    'titre' => 'un peu de bienveillance',
-    'sujet' => 'Marraine qui est passé de dire ma chérie à dire mon chérie contrairement aux parents, même si n’est pas les parents cela lui a quand même fait beaucoup de bien.',
-    'auteur' => [
-        'nom' => 'Regnier',
-        'prenom' => 'Aurore',
-        'age' => '19',
-    ],
+    'titre' => 'Passe ta route',
+    'sujet' => "Un inconnu n'arrête pas de me demander si je suis un homme.",
     'temoignant' => [
         'prénom' => 'Léo',
         'age' => '19',
     ],
-],];
+    'slides' => [
+        'slide1' => 'public/image/BD/1.png',
+        'slide2' => 'public/image/BD/2.png',
+        'slide3' => 'public/image/BD/3.png',
+        'slide4' => 'public/image/BD/4.png',
+        'slide5' => 'public/image/BD/5.png',
+        'slide6' => 'public/image/BD/6.png',
+        'slide7' => 'public/image/BD/7.png',
+        'slide8' => 'public/image/BD/8.png',
+    ]
+],
+];
 $temoignages_oral = [
 
     1 => [
@@ -67,14 +72,9 @@ $temoignages_ecrit = [
 
     1 => [
     'link' => 'Temoignages.php#ecrit',
-    'titre' => 'un peu de bienveillance',
-    'resume' => 'Marraine qui est passé de dire ma chérie à dire mon chérie contrairement aux parents, même si n’est pas les parents cela lui a quand même fait beaucoup de bien. Personnes qui demandent « T’es un homme ? » puis disent « Bah non ça se voit que t’en ai pas un » juste pour être méchant. Se faire interpeller par un couple dans la rue qui lui demande en boucle s’il est sûr d’être un homme. ',
-    'temoignage' => ' ',
-    'auteur' => [
-        'nom' => 'Regnier',
-        'prenom' => 'Aurore',
-        'age' => '19',
-    ],
+    'titre' => 'Passe ta route',
+    'resume' => "Un inconnu n'arrête pas de me demander si je suis un homme",
+    'temoignage' => 'J’ai aussi une autre anecdote où j’étais en pleine rue et je marchais avec un ami, et enfaite il y a une voiture qui s’arrête devant nous, c’était euh un mari et sa femme. Ils s’arrêtent devant nous, ils étaient entrain de rouler il y avait un passage piéton et ils se sont arrêtés devant nous, il y avait ni feu rouge ni céder le passage et enfaite ils me demandent : « T’es un homme ou une femme ?? » du coup je réponds : « Je suis un homme » et ils disent : « T’es sûr ? » en insistant bien sur le t’es sûr et ils l’ont répété plusieurs fois et enfaite c’est hyper blessant de voir la curiosité des gens à ce point là et en plus en exagérant en disant : « T’es sûr ? t’es sûr ? » alors que je leur dis bien : « Oui je suis sûr ». Il a fallu que mon ami intervienne et dise : « Oui il est sûr, c’est un homme » en insistant bien là-dessus pour qu’ils s’en aillent. C’est vraiment des actions qui se font pas du tout, la curiosité est bien mais faut pas exagérer là-dessus. ',
     'temoignant' => [
         'prénom' => 'Léo',
         'age' => '19',

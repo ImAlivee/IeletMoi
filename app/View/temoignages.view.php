@@ -1,23 +1,25 @@
 <section id = "ecrit">
     <h2>Témoignages écrits</h2>
 
-    <div class = "temoignage">
-        <img class ="icone" src ="public\Image\Temoignage\Icone_livre.svg"> 
-        <div class = "description">
-            <h3>Titre du témoignage</h3>
-            <p>le résumé du témoignage</p>
-            <span>Nom, prénom, age (ou anonyme)</span>
-        </div>
-    </div>
 
+    <?php
+        foreach ($temoignages_ecrit as $ecrit)  :
+    ?>
+    
     <div class = "temoignage">
         <img class ="icone" src ="public\Image\Temoignage\Icone_livre.svg"> 
         <div class = "description">
-            <h3>Titre du témoignage</h3>
-            <p>le résumé du témoignage</p>
-            <span>Nom, prénom, age (ou anonyme)</span>
+            <h3><?= $temoignages_ecrit['1']['titre'] ?></h3>
+            <p><?= $temoignages_ecrit['1']['temoignage'] ?></p>
+            <span>
+                <?php 
+                        $temoignant = $temoignages_ecrit['1']['temoignant'];
+                        echo $temoignant['prénom'] . ' '  . $temoignant['age'] . ' ans';
+                    ?>
+            </span>
         </div>
     </div>
+    <?php endforeach; ?>
 
 </section>
 
@@ -48,35 +50,16 @@
 <section  id ="BD">
     <h2>Témoignages BD</h2>
 
-    <h3>Titre de la BD</h3>
+    <h3><?= $temoignages_bd['1']['titre'] ?></h3>
 
-    <div>
+    <?php
+    $slide = $temoignages_bd['1']['slides'];
+    foreach($slide as $bd) :
+    ?>
         <div class="slider">
-        <div id="slide-1">
-        <img src="public\Image\BD\1.png">
+            <div id="slide">
+            <img src="<?= $slide['slide1'] ?>">
+            </div>
         </div>
-        <div id="slide-2">
-        <img src="public\Image\BD\2.png">
-        </div>
-        <div id="slide-3">
-        <img src="public\Image\BD\3.png">
-        </div>
-        <div id="slide-4">
-        <img src="public\Image\BD\4.png">
-        </div>
-        <div id="slide-5">
-        <img src="public\Image\BD\5.png">
-        </div>
-        <div id="slide-6">
-        <img src="public\Image\BD\6.png">
-        </div>
-        <div id="slide-7">
-        <img src="public\Image\BD\7.png">
-        </div>
-        <div id="slide-8">
-        <img src="public\Image\BD\8.png">
-        </div>
-        </div>
-    </div>
-
+    <?php endforeach; ?>
 </section>
