@@ -4,6 +4,7 @@ $temoignages_bd = [
     'link' => 'Temoignages.php#BD',
     'titre' => 'Passe ta route',
     'sujet' => "Un inconnu n'arrête pas de me demander si je suis un homme.",
+    'url' => 'ieletmoi/Temoignages.php#bd',
     'temoignant-prenom' => 'Léo',
     'temoignant-age' => '19',
     'bd' => [
