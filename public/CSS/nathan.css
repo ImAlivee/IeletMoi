@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css2?family=Comfortaa&family=Neucha&display=swap);
+
+h2 {
+  font-size: 2rem;
+  font-family: 'Neucha' ;
+  text-align: center;
+  margin-top: 30px;
+}
+
+main {
+  inset-inline-start: 10px;
+  list-style: none;
+}
+
+body {
+  margin:0px ;
+  font-family:'Roboto',arial  ;
+}
+
+ul .favmedia{
+  display: inline-block;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li .image{
+  height: 500px;
+}
+
+p{
+  font-size: 2rem;
+  font-family:'Neucha';
+}
+
+
+main {
+background-color: rgba(255, 255, 255, 0.5) ;
+background-image: url('m') ;
+padding:50px ;
+margin: auto;
+margin-top: 100px;
+text-align: center;
+}
