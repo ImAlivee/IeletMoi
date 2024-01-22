@@ -1,20 +1,36 @@
 @import url(https://fonts.googleapis.com/css2?family=Comfortaa&family=Neucha&display=swap);
 
 h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: 'Neucha' ;
   text-align: center;
-  margin-top: 30px;
+  background-color: white;
+  color: rgb(174, 0, 46);
+  border-radius: 10px;
+  margin: 10px 40% 10px 40%;
 }
 
 main {
+  margin-top: 75px;
   inset-inline-start: 10px;
   list-style: none;
 }
 
+p {
+  color: white;
+}
+
+.photo img{
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+  border: solid rgb(255, 0, 68);
+  float: right;
+}
+
 body {
   margin:0px ;
-  font-family:'Roboto',arial  ;
+  background-color: rgb(60, 60, 60);
 }
 
 ul .favmedia{
@@ -26,11 +42,23 @@ ul{
 }
 
 .cards{
-  background-color: rgb(255, 0, 68);
+  background:linear-gradient( rgb(255, 0, 68), rgb(174, 0, 46));
+  color: white;
+  border-radius: 15px;
+  margin: 10px;
+  border: solid rgb(217, 217, 217);
+  border-width: 10%;
+
+}
+
+h3 {
+  padding: 10px;
 }
 
 .image{
   height: 250px;
+  margin: 10px;
+  display: inline-block;
 }
 
 p{
@@ -40,10 +68,8 @@ p{
 
 
 main {
-background-color: rgba(255, 255, 255, 0.5) ;
-background-image: url('m') ;
 padding:50px ;
 margin: auto;
-margin-top: 100px;
+margin-top: 20px;
 text-align: center;
 }
