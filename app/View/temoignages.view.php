@@ -56,15 +56,19 @@
         <div class="slider">
 
             <?php
-            $slide = $temoignages_bd['1']['bd'];
-            foreach($slide as $bd) : 
+                for ($i = 1 ; $i <= 8 ; $i++)
+                {
+            ?>
+             <div id="slide">
+            <img src="public/image/BD/<?=$i?>.png"> 
+            <?php
+                }
             ?>
 
-            <div id="slide">
-            <img src="public/image/BD/<?=$slide['slide1']?>"> 
             </div>
 
-            <?php endforeach; ?>
+
+       
 
         </div>
 

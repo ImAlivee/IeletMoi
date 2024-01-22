@@ -7,14 +7,14 @@ $temoignages_bd = [
     'temoignant-prenom' => 'Léo',
     'temoignant-age' => '19',
     'bd' => [
-        'slide1' => '1.png',
-        'slide2' => '2.png',
-        'slide3' => '3.png',
-        'slide4' => '4.png',
-        'slide5' => '5.png',
-        'slide6' => '6.png',
-        'slide7' => '7.png',
-        'slide8' => '8.png',
+        'slide1' => '1',
+        'slide2' => '2',
+        'slide3' => '3',
+        'slide4' => '4',
+        'slide5' => '5',
+        'slide6' => '6',
+        'slide7' => '7',
+        'slide8' => '8',
     ]
 ],
 ];
