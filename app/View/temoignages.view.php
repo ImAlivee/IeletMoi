@@ -52,45 +52,19 @@
 
     <h3><?= $temoignages_bd['1']['titre'] ?></h3>
 
-
         <div class="slider">
-
+                
             <?php
-            $slide = $temoignages_bd['1']['bd'];
-            foreach($slide as $bd) : 
-            ?>
+            $bd = 0;
+            for ($bd = 1 ; $bd <= 8 ; $bd++) { ?>
 
-            <div id="slide">
-            <img src="public/image/BD/<?=$slide['slide1']?>"> 
-            </div>
+                <div class="slide">
+                <img src="public/image/BD/<?=$bd?>.png"> 
+                </div>
 
-            <?php endforeach; ?>
+            <?php } ?>
 
-        </div>
-        
-        <div class="slider">
-
-        <?php
-                for ($i = 1 ; $i <= 8 ; $i++)
-                {
-            ?>
-             <div id="slide">
-            <img src="public/image/BD/<?=$i?>.png"> 
-            <?php
-                }
-            $slide = $temoignages_bd['1']['bd'];
-            foreach($slide as $bd) : 
-            ?>
-
-            <div id="slide">
-            <img src="public/image/BD/<?=$slide['slide1']?>"> 
-            </div>
-
-
-       
-            <?php endforeach; ?>
-
-        </div>
+         </div>
 
 
 </section>
