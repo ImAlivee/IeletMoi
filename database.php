@@ -53,7 +53,6 @@ $temoignages_oral = [
     ],
 
     4 => [
-<<<<<<< HEAD
         'audio' => 'public/image/temoignage/temoignage_emilie_becker_groupem.mp3',
         'img' => 'public\Image\accueil\preview_audio.svg',
         'resume' => 'Discussion en groupe qui amène à la différence de vision entre les couples gay et lesbiens, un gars du groupe trouve les couples gay dégueulasse mais va trouver un couple lesbien chaud, la même remarque avait été faite par son père',
@@ -65,10 +64,7 @@ $temoignages_oral = [
     ],
 
     5 => [
-        'audio' => 'public/image/temoignage/temoignage_alicia_gossiome_groupem.mp3',
-=======
         'audio' => 'public/image/temoignage/temoignage_alicia_gossiome_groupem-.mp3',
->>>>>>> c161ab8824924a90da7358eab66701ab15e74824
         'link' => 'Temoignages.php#audio',
         'img' => 'public\image\accueil\preview_audio.svg',
         'resume' => 'Une connaissance pose des questions assez méchantes sur les raisons de sa bisexualité, la question qui l’a le plus marqué étant « Il t’es arrivé quoi pour être comme ça ? »',
