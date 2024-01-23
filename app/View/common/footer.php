@@ -15,7 +15,7 @@
          ?>    
         <a href ="<?= $icone['url'] ?>">
            <figure>
-              <img src="<?= $icone['image'] ?>" alt="Notre <?= $icone['title'] ?>">
+              <img src="<?= $icone['image'] ?>" alt="notre <?= $icone['title'] ?>">
            </figure>
         </a>
     
