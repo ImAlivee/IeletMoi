@@ -41,7 +41,6 @@
                 <li>Couture</li>
                 <li>Patiserie</li>
                 <li>Tricot</li>
-                <li>Guez</li>
             </ul>
         </div>
     </section>
