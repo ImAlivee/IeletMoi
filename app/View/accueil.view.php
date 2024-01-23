@@ -14,7 +14,7 @@
     <section class="preview">
         <div class="sujets" id="bd">
             <h2>Bandes Dessinées</h2>
-            <img src="<?php echo max($temoignages_bd)['url']  ?>">
+            <img src="public\Image\BD\1.png">
             <button class="BD" onclick="window.location.href = '<?php echo max($temoignages_bd)['link'] ?>'">Derniere BD</button>
         </div>
         <div class="sujets" id="Temoignages">
