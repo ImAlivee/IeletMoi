@@ -195,7 +195,7 @@ $reseau = [
         'image' => 'public\Image\imagesContacts\youtube.png',
     ],
 
-    'Spotify' => [
+    'Spotify' => [  
         'url' => 'https://open.spotify.com/intl-fr',
         'image' => 'public\Image\imagesContacts\spotify.png',
     ],
