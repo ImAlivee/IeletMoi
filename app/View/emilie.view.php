@@ -7,11 +7,11 @@
         <div class="aime">
             <h3>Mes passions:</h3>
             <ul>
-                <img src="public/image/emilie/modele_fleur foncée.png" class="fleur">
+                <img src="public/image/emilie/modele_fleur_foncée.png" class="fleur">
                 <li>Les jeux vidéos / de société</li>
-                <img src="public/image/emilie/modele_fleur foncée.png" class="fleur">
+                <img src="public/image/emilie/modele_fleur_foncée.png" class="fleur">
                 <li>Le dessin</li>
-                <img src="public/image/emilie/modele_fleur foncée.png" class="fleur">
+                <img src="public/image/emilie/modele_fleur_foncée.png" class="fleur">
                 <li>Les fleurs</li>
             </ul>
         </div>
@@ -21,23 +21,23 @@
 
     <div class="competences">
         <div id="equipe">
-            <img src="public/image/emilie/etoile_equipe.svg" class="etoiles">
+            <img src="public/image/emilie/etoileequipe.svg" class="etoiles">
             <p>Travail d'équipe</p>
         </div>
         <div id="photoshop">
-            <img src="public/image/emilie/etoile_photoshop.svg" class="etoiles">
+            <img src="public/image/emilie/etoilephotoshop.svg" class="etoiles">
             <p>Photoshop</p>
         </div>
         <div id="illustrator">
-            <img src="public/image/emilie/etoile_illustrator.svg" class="etoiles">
+            <img src="public/image/emilie/etoileillustrator.svg" class="etoiles">
             <p>Illustrator</p>
         </div>
         <div id="clipstudio">
-            <img src="public/image/emilie/etoile_clipstudio.svg" class="etoiles">
+            <img src="public/image/emilie/etoileclipstudio.svg" class="etoiles">
             <p>Clip Studio Paint</p>
         </div>
         <div id="anglais">
-            <img src="public/image/emilie/etoile_anglais.svg" class="etoiles">
+            <img src="public/image/emilie/etoileanglais.svg" class="etoiles">
             <p>Anglais</p>
         </div>
 
@@ -50,7 +50,7 @@
         <span>Janvier 2024 / Illustrator</span>
     </div>
     <div class="creation">
-        <img src="public/image/emilie/draw_this_again_2023.png" class="dessins" />
+        <img src="public/image/emilie/drawthisagain2023.png" class="dessins" />
         <span>Decembre 2023 / Clip Studio Paint </span>
     </div>
     <div class="creation">
