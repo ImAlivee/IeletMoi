@@ -1,5 +1,5 @@
 <section class="presentation" id="description">
-    <img src="public/image/emilie/autoportrait_emilie_becker_groupe_8_mmi.png" id="autoportrait">
+    <img src="public/image/emilie/autoportrait_emilie-becker_groupe_8_mmi.png" id="autoportrait">
     <div class="description">
         <p>Bonjour, je suis Emilie BECKER, une étudiante en BUT MMI. </p>
         <p>Je suis également connue sous le pseudonyme "Tiny.Emii"</p>
