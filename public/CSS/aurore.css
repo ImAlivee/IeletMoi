@@ -58,23 +58,27 @@
     box-shadow: #f5a849 0px 0px 10px;
   }
   #passions li{
-    background-color: #613dcc;
+    background-color: #030120;
     color: white;
     text-align: center;
     border-radius: 20px;
     margin: 3%;
     padding: 1.5%;
     font-size: 20px;
+    text-shadow: #f5a849 0px 0px 10px;
+    box-shadow: #f5a849 0px 0px 10px;
     list-style: none;
   }
 
   .passions p{
+    color: white;
     width: 30%;
     margin-left: 11%;
     margin-right: 5%;
     top: -32px;
-    background-color: #478399;
+    background-color: #380154;
     padding: 3%;
+    box-shadow: #f5a849 0px 0px 10px;
     border-radius: 10px;
   }
   .inline{

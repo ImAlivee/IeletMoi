@@ -37,10 +37,10 @@
             <p class="inline">Je suis quelqu'un qui travail énormement depuis que je sais ce que je vais faire plutard, je travail pour atteindre mes objectifs et etre le meilleur de moi-même mais même si mon futur métiers est une de mes passions qui me prend le plus de temps, j'ai de nombreux centres d'interets en dehors de la création.</p>
             
             <ul class="inline" id="passions">
-                <li>crochet et tricot</li>
-                <li>couture</li>
+                <li>Crochet</li>
+                <li>Couture</li>
                 <li>Patiserie</li>
-                <li>artisanal ()</li>
+                <li>Tricot</li>
             </ul>
             </div>
         </section>

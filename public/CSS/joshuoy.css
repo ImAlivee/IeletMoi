@@ -11,6 +11,18 @@ main {
   max-width: 100%;
   max-height: 100%;
 }
+
+.img {
+  border-radius:10%;
+  border : solid 2px rgb(67, 105, 103);
+  margin-bottom:7%;
+}
+
+.banniere {
+  background-image: url('../Image/Joshuoy/luffy.jpg');
+  border : solid 2px rgb(67, 105, 103);
+}
+
 .texte {
 text-align: center;
 }
@@ -25,8 +37,30 @@ body {
 .quest {
   text-align: center;
 }
+
+.reponse:hover {
+  background-color:rgba(127, 180, 182, 0.341);
+  border : solid 2px rgb(118, 161, 159);
+}
 .reponse {
   text-align: center;
+  background-color:rgba(67, 124, 127, 0.341);
+  width:50%;
+  height:50%;
+  margin: auto;
+  padding:2%;
+  border-radius:10px;
+  border : solid 2px rgb(67, 105, 103);
+  box-shadow:rgba(67, 124, 127, 0.341) 2px 2px 2px;
+  
+}
+
+.liste {
+  margin-bottom:2%;
+}
+
+.reponse li {
+  list-style: none;
 }
 
 .quest {
@@ -45,3 +79,4 @@ body {
 #fin {
   margin-bottom: 5%;
 }
+
