@@ -36,7 +36,7 @@ h1,header p {
 }
 
   .Présentation{
-    margin-top: 7%;
+    margin-top: 3%;
     margin-bottom: 7%;
   }
 
@@ -96,13 +96,13 @@ h1,header p {
     background-color:rgb(175, 190, 143);
     border-radius: 5%;
     box-shadow: white 0 0 0 5px  ;
-    padding-bottom: 3%;
+    padding-bottom: 8%;
     max-width: 80%;
+    margin-bottom: 5%;
     padding:3%;
     text-decoration: none;
     list-style: none;
-    display: inline-block;          
-    
+    display: inline-block;        
   }
 
 main{

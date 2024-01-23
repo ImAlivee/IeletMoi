@@ -132,12 +132,12 @@ $membres = [
     ],
 ];
 
-$menu = [
-    'Accueil' => 'accueil.php',
-    'Formulaire' => 'formulaire.php',
-    'Temoignage' => 'temoignages.php',
-    'Présentation' => 'presentation.php',
-    'Contact' => 'contact.php',
+$header = [
+    'Contact' => 'Contact.php',
+    'Présentation' => 'Presentation.php',
+    'Témoignages' => 'Temoignages.php',
+    'Formulaire' => 'Formulaire.php',
+    'Accueil' => 'Accueil.php',
 ];
 $footer = [
     'mentions' => 'mentions_legales.php',
