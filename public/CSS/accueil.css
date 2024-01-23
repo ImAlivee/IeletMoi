@@ -6,7 +6,6 @@
   background-image: url('../Image/fond1.svg') ;
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 
 .description div{
@@ -42,6 +41,7 @@ h1 {
   text-align: center;
   padding-left: 8%;
 }
+
 .sujets{
   display: inline-block;
   max-width: 80%;
@@ -63,7 +63,6 @@ h1 {
 }
 #Temoignages p{
   width: 63%;
-
   margin-left: 18%;
 }
 
