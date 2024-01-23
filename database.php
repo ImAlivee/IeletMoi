@@ -135,7 +135,7 @@ $membres = [
 $header = [
     'Contact' => 'Contact.php',
     'Présentation' => 'Presentation.php',
-    'Temoignage' => 'Temoignages.php',
+    'Témoignages' => 'Temoignages.php',
     'Formulaire' => 'Formulaire.php',
     'Accueil' => 'Accueil.php',
 ];
