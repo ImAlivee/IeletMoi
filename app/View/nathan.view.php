@@ -30,6 +30,8 @@
                 <li class="image"><img src="https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_SuperSmashBrosUltimate_02_image1600w.jpg" alt=""></li>
                 <li class="image"><img src="https://cdn-products.eneba.com/resized-products/_xhcfDFbvlJ1OQKnNrAZBhFYKMKOj5C4Mjqrgk9M27I_1920x1080_1x-0.jpg" alt=""></li>
                 <li class="image"><img src="https://upload.wikimedia.org/wikipedia/en/9/99/Sonic_Adventure_2_cover.png" alt=""></li>
+                <li class="image"><img src="https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_ds_22/SI_NDS_InazumaEleven_image1600w.jpg" alt=""></li>
+                <li class="image"><img src="" alt=""></li>
                 <li class="image"><img src="" alt=""></li>
             </ul>
         </section>
