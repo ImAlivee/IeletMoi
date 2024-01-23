@@ -12,6 +12,7 @@ h1{
     color:#478399;
     padding-top: 1%;
     padding-bottom: 1%;
+    box-shadow: #478399 0px 0px 3px;
 }
 
 body{
@@ -54,6 +55,7 @@ label{
     text-align: justify;
     float: right;
     margin-right: 3%;
+    box-shadow: #478399 0px 0px 3px;
 }
 #adresse{
     font-weight: bold;
@@ -79,6 +81,7 @@ label{
     text-align: justify;
     float: left;
     margin-left: 3%;
+    box-shadow: #478399 0px 0px 3px;
 }
 
 #submit {
