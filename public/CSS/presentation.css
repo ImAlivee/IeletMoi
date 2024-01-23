@@ -1,7 +1,7 @@
   body {
   background-image: url('../Image/IElLetmoifond2.svg') ;
   background-size: cover;
-  background-repeat: repeat;
+  background-repeat: repeat-y;
   }
 
   h1 {
@@ -26,7 +26,7 @@
   }
   
   main {
-    inset-inline-start: 10px;
+    inset-inline-start: 1%;
     list-style: none;
   }
   
