@@ -148,7 +148,7 @@ nav li a:hover {
 }
 
 #creations {
-    background-image:url('../Image/Emilie/Motif_abstrait_rose.png');
+    background-image:url('../image/emilie/motif_abstrait_rose.png');
     border-bottom:white 4px solid;
     padding-bottom:100px;
 }
@@ -192,7 +192,7 @@ nav li a:hover {
 }
 .parcours {
     padding:20px;
-    background-image:url('../Image/Emilie/fond_fleur_jaune.png');
+    background-image:url('../image/emilie/fond_fleur_jaune.png');
     background-size: cover;
     padding-bottom:100px;
 
