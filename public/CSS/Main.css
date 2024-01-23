@@ -65,7 +65,9 @@ li a:hover{
   display: flex;
   align-items: center;
 }
-
+.bas :hover{
+  color: #F4AEA6 ;
+}
 .bas figure {
   width: 75px;
   height: 100px;
