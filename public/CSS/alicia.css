@@ -1,0 +1,94 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../Image/alicia/fond.png);
+    background-size: cover;
+    
+}
+
+main{
+    text-align: center;
+}
+
+h1{
+    background-color: black;
+    color: white;
+}
+
+h3{
+    margin-bottom: 2%;
+}
+
+#desc{
+    display: inline-block;
+    background-color: black;
+    padding: 15px;
+}
+
+#texte-desc{
+    width: 40%;
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+    margin-right: 2%;
+}
+
+#img-desc{
+    width: 20%;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 15px;
+}
+
+#serie{
+    background-color: black;
+    color: white;
+    width: 80%;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 5%;
+    padding: 15px;
+
+}
+.serie{
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#film{
+    background-color: black;
+    color: white;
+    width: 80%;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+
+}
+.film{
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#musique{
+    background-color: black;
+    color: white;
+    width: 80%;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    padding: 15px;
+
+}
+.musique{
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
