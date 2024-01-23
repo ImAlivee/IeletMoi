@@ -19,10 +19,11 @@ $temoignages_bd = [
         ]
     ],
 ];
+
 $temoignages_oral = [
 
     1 => [
-        'audio' => 'public/Image/Temoignage/Temoignage_Emma_LEMOINE.mp3',
+        'audio' => 'public/image/temoignage/temoignage_emma_lemoine.mp3',
         'resume' => 'relation Parent et enfants, ce quon dis sans pensé aux autres affecte nimporte qui autour de nous qui entendrait nos propos',
         'auteur' => [
             'nom' => 'Lemoine',
@@ -32,7 +33,7 @@ $temoignages_oral = [
     ],
 
     2 => [
-        'audio' => 'public/Image/Temoignage/Temoignage_Aurore_Regnier.mp3',
+        'audio' => 'public/image/temoignage/temoignage_aurore_regnier.mp3',
         'resume' => 'Marraine qui est passé de dire ma chérie à dire mon chérie contrairement aux parents, même si n’est pas les parents cela lui a quand même fait beaucoup de bien. Personnes qui demandent « T’es un homme ? » puis disent « Bah non ça se voit que t’en ai pas un » juste pour être méchant. Se faire interpeller par un couple dans la rue qui lui demande en boucle s’il est sûr d’être un homme.',
         'auteur' => [
             'nom' => 'Regnier',
@@ -42,7 +43,7 @@ $temoignages_oral = [
     ],
 
     3 => [
-        'audio' => 'public/Image/Temoignage/Interview_Alban_FaitoutFourmigue_GroupeM.mp3',
+        'audio' => 'public/image/temoignage/interview_alban_faitoutfourmigue_groupem.mp3',
         'resume' => 'Les gens ont tendances à résumé sa bisexualité à juste être Lesbienne alors que non elle aime aussi les hommes.',
         'auteur' => [
             'nom' => 'Faitout',
@@ -52,7 +53,18 @@ $temoignages_oral = [
     ],
 
     4 => [
-        'audio' => 'public/Image/Temoignage/Temoignage_Alicia_Gossiome_GroupeM-.mp3',
+        'audio' => 'public/image/temoignage/temoignage_emilie_becker_groupem.mp3',
+        'img' => 'public\Image\accueil\preview_audio.svg',
+        'resume' => 'Discussion en groupe qui amène à la différence de vision entre les couples gay et lesbiens, un gars du groupe trouve les couples gay dégueulasse mais va trouver un couple lesbien chaud, la même remarque avait été faite par son père',
+        'auteur' => [
+            'nom' => 'Becker',
+            'prenom' => 'Emilie',
+            'age' => '18',
+        ]
+    ],
+
+    5 => [
+        'audio' => 'public/image/temoignage/temoignage_alicia_gossiome_groupem.mp3',
         'link' => 'Temoignages.php#audio',
         'img' => 'public\Image\accueil\preview_audio.svg',
         'resume' => 'Une connaissance pose des questions assez méchantes sur les raisons de sa bisexualité, la question qui l’a le plus marqué étant « Il t’es arrivé quoi pour être comme ça ? »',
@@ -60,6 +72,8 @@ $temoignages_oral = [
             'nom' => 'Gossiome',
             'prenom' => 'Alicia',
             'age' => '19',
+
+    
         ]
     ],
 
