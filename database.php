@@ -24,7 +24,7 @@ $temoignages_oral = [
 
     1 => [
         'audio' => 'public/image/temoignage/temoignage_emma_lemoine.mp3',
-        'resume' => 'relation Parent et enfants, ce quon dis sans pensé aux autres affecte nimporte qui autour de nous qui entendrait nos propos',
+        'resume' => 'Relation Parent et enfants, ce quon dis sans pensé aux autres affecte nimporte qui autour de nous qui entendrait nos propos',
         'auteur' => [
             'nom' => 'Lemoine',
             'prenom' => 'Emma',
@@ -64,7 +64,7 @@ $temoignages_oral = [
     ],
 
     5 => [
-        'audio' => 'public/image/temoignage/temoignage_alicia_gossiome_groupem-.mp3',
+        'audio' => 'public/image/temoignage/temoignage_alicia_gossiome_groupem.mp3',
         'link' => 'Temoignages.php#audio',
         'img' => 'public\image\accueil\preview_audio.svg',
         'resume' => 'Une connaissance pose des questions assez méchantes sur les raisons de sa bisexualité, la question qui l’a le plus marqué étant « Il t’es arrivé quoi pour être comme ça ? »',
