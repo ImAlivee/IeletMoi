@@ -24,7 +24,7 @@ $temoignages_oral = [
 
     1 => [
         'audio' => 'public/image/temoignage/temoignage_emma_lemoine.mp3',
-        'resume' => 'relation Parent et enfants, ce quon dis sans pensé aux autres affecte nimporte qui autour de nous qui entendrait nos propos',
+        'resume' => 'Relation Parent et enfants, ce quon dis sans pensé aux autres affecte nimporte qui autour de nous qui entendrait nos propos',
         'auteur' => [
             'nom' => 'Lemoine',
             'prenom' => 'Emma',
