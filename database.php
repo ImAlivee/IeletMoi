@@ -72,7 +72,7 @@ $temoignages_ecrit = [
     1 => [
         'link' => 'Temoignages.php#ecrit',
         'titre' => 'Passe ta route',
-        'resume' => "Un inconnu, en voiture, s'arrête sans aucune raison apparente. Il lui demande : t'es un mec ou une meuf ? <br> J'avais beau répondre clui-ci insistait encore et encore. Heureusement, mon ami et intervenu...",
+        'resume' => "Un inconnu, en voiture, s'arrête sans aucune raison apparente. Il lui demande : t'es un mec ou une meuf ? <br> J'avais beau répondre celui-ci insistait encore et encore. Heureusement, mon ami et intervenu...",
         'temoignage' => 'J’ai aussi une autre anecdote où j’étais en pleine rue et je marchais avec un ami, et enfaite il y a une voiture qui s’arrête devant nous, c’était euh un mari et sa femme. Ils s’arrêtent devant nous, ils étaient entrain de rouler il y avait un passage piéton et ils se sont arrêtés devant nous, il y avait ni feu rouge ni céder le passage et enfaite ils me demandent : « T’es un homme ou une femme ?? » du coup je réponds : « Je suis un homme » et ils disent : « T’es sûr ? » en insistant bien sur le t’es sûr et ils l’ont répété plusieurs fois et enfaite c’est hyper blessant de voir la curiosité des gens à ce point là et en plus en exagérant en disant : « T’es sûr ? t’es sûr ? » alors que je leur dis bien : « Oui je suis sûr ». Il a fallu que mon ami intervienne et dise : « Oui il est sûr, c’est un homme » en insistant bien là-dessus pour qu’ils s’en aillent. C’est vraiment des actions qui se font pas du tout, la curiosité est bien mais faut pas exagérer là-dessus. ',
         'temoignant' => [
             'prénom' => 'Léo',
@@ -132,76 +132,53 @@ $membres = [
     ],
 ];
 
-$header = [
-    'Contact' => 'Contact.php',
-    'Présentation' => 'Presentation.php',
-    'Témoignages' => 'Temoignages.php',
-    'Formulaire' => 'Formulaire.php',
-    'Accueil' => 'Accueil.php',
+$menu = [
+    'Accueil' => 'accueil.php',
+    'Formulaire' => 'formulaire.php',
+    'Temoignage' => 'temoignages.php',
+    'Présentation' => 'presentation.php',
+    'Contact' => 'contact.php',
 ];
 $footer = [
     'mentions' => 'mentions_legales.php',
     'copyright' => ' ',
 ];
 
-$reseaux = [
+$menu = [
 
     1 => [
-        'url' => 'https://instagram.com/iel_et_moi?igshid=MTk0NTkyODZkYg==',
+        3 => 'https://instagram.com/iel_et_moi?igshid=MTk0NTkyODZkYg==',
         'image' => 'https://media.discordapp.net/attachments/1176540000129663017/1180149569628155955/D82BC583-0D26-4FE5-A1AB-21605F8A9A64.png?ex=657c5eef&is=6569e9ef&hm=cea5bbf7699a3d109f64e8ae31e262bdf33eba5351899d627dac0aa5fb2c6c8f&=&format=webp&quality=lossless&width=1200&height=1200"',
         'title' => 'Instagram',
     ],
 
     2 => [
-        'url' => 'https://www.youtube.com/',
+        3 => 'https://www.youtube.com/',
         'image' => 'https://media.discordapp.net/attachments/1176540000129663017/1180152572607213689/FF531FAF-1C02-40D2-BD88-64BFEC4DF070.png?ex=65aa863b&is=6598113b&hm=c3d5e4ae29cbb3a0aa9555d2ee69ba5750e9c15bf3feb0ca7084033aed18c7e5&=&format=webp&quality=lossless&width=662&height=662',
         'title' => 'Youtube',
     ],
 
     3 => [
-        'url' => 'https://open.spotify.com/intl-fr',
+        3 => 'https://open.spotify.com/intl-fr',
         'image' => 'https://media.discordapp.net/attachments/1176540000129663017/1194645010524672070/965AE9DB-DD45-4102-9D53-6480E7BE6EBB.png?ex=65b11add&is=659ea5dd&hm=34c5980c887673ccb74eb2a43f054ae715ccf67af49d88a03330370913650c00&=&format=webp&quality=lossless&width=662&height=662',
         'title' => 'Spotify',
     ],
 
     4 => [
-        'url' => 'https://www.tiktok.com/fr/',
+        3 => 'https://www.tiktok.com/fr/',
         'image' => 'https://media.discordapp.net/attachments/1176540000129663017/1180153971487293440/94D3F527-14F4-4C17-AD0E-A19D8799BFED.png?ex=65aa8789&is=65981289&hm=f930fe15444d017ba6661075a47e19bf7872f66b1e778a77b56494fdf9801ba1&=&format=webp&quality=lossless&width=662&height=662',
         'title' => 'TikTok',
     ],
-];
 
-$menu = [
-    1 => [
-    'url' => '',
-    'title' => 'Copyright',
+    5 => [
+        3 => '',
+        'image' => '',
+        'title' => 'Copyrights',
     ],
 
-    2 => [
-        'url' => '',
-        'title' => 'Mentions légales',
-    ],
-];
-
-$reseau = [
-
-    'Instagram' => [
-        'url' => 'https://instagram.com/iel_et_moi?igshid=MTk0NTkyODZkYg==',
-        'image' => 'public\Image\imagesContacts\instagram.png',
-    ],
-
-    'Youtube' => [
-        'url' => 'https://www.youtube.com/',
-        'image' => 'public\Image\imagesContacts\youtube.png',
-    ],
-
-    'Spotify' => [
-        'url' => 'https://open.spotify.com/intl-fr',
-        'image' => 'public\Image\imagesContacts\spotify.png',
-    ],
-
-    'Tiktok' => [
-        'url' => 'https://www.tiktok.com/fr/',
-        'image' => 'public\Image\imagesContacts\tiktok.png',
+    6 => [
+        3 => '',
+        'image' => '',
+        'title' => 'Mentions légale',
     ],
 ];
