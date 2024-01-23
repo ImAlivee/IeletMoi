@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="raphael.css" rel="stylesheet">
     <title>Raphaël Leclaire</title>
 </head>
+
 <body>
     <main>
-            <div class="texte">
-                <h1>Présentation</h1>
-                <span>Retrouver sur ce site une brieve présentation de ma personne!</span>
-            </div>
+        <div class="texte">
+            <h1>Présentation</h1>
+            <span>Retrouver sur ce site une brieve présentation de ma personne!</span>
+        </div>
 
         <section class="Présentation">
-            
-            <img class="affiche" src="public/Image/Raphael/portrait.png">
+
+            <img class="affiche" src="public/image/raphael/portrait.png">
             <div class="paragraphe">
                 <h3>Qui je suis?</h3>
                 <p>Bonjour, je m’appelle Raphaël Leclaire, j’ai 19 et je suis étudiant en première année en BUT MMI (métier du multimédia et de l’internet). J’ai eu mon bac dans une formation STI2D. Suite à l’obtention de mon Bac, je me suis inscrit en première année en BTS SNIR qui ne me correspondait pas. À la fin de cette année, je me suis inscrit en BUT MMI et je fus accepté.
@@ -31,12 +33,13 @@
             <p> Voila quelques exemples d'artistes que j'écoute au quotidien</p>
             <br>
             <div class="Son">
-                <img id="mitski" src="public/Image/Raphael/laufey.jpg ">
-                <img id="laufey" src="public/Image/Raphael/lush.jpg">
-                <img id="jazmin" src="public/Image/Raphael/mac.jpg">
-                <img id="tv" src="public/Image/Raphael/smiths.jpg">
+                <img id="mitski" src="public/image/raphael/laufey.jpg ">
+                <img id="laufey" src="public/image/raphael/lush.jpg">
+                <img id="jazmin" src="public/image/raphael/mac.jpg">
+                <img id="tv" src="public/image/raphael/smiths.jpg">
             </div>
         </section>
     </main>
 </body>
+
 </html>

@@ -7,7 +7,7 @@
     ?>
 
         <div class="temoignage">
-            <img class="icone" src="public\Image\Temoignage\Icone_livre.svg">
+            <img class="icone" src="public\image\temoignage\icone_livre.svg">
             <div class="description">
                 <h3><?= $temoignages_ecrit['1']['titre'] ?></h3>
                 <p><?= $temoignages_ecrit['1']['temoignage'] ?></p>
@@ -33,7 +33,7 @@
     foreach ($deuxTemoignages as $temoignage) :
     ?>
         <div class="temoignage">
-            <img class="icone" src="public/Image/Temoignage/Icone_audio.svg">
+            <img class="icone" src="public/image/temoignage/icone_audio.svg">
             <audio src="<?php echo $temoignage['audio']; ?>" controls></audio>
             <div class="description">
                 <p><?php echo $temoignage['resume']; ?></p>
@@ -54,17 +54,17 @@
 
     <div class="slider">
 
-<?php
-$bd = 0;
-for ($bd = 1 ; $bd <= 8 ; $bd++) { ?>
+        <?php
+        $bd = 0;
+        for ($bd = 1; $bd <= 8; $bd++) { ?>
 
-    <div class="slide">
-    <img src="public/image/BD/<?=$bd?>.png"> 
+            <div class="slide">
+                <img src="public/image/BD/<?= $bd ?>.png">
+            </div>
+
+        <?php } ?>
+
     </div>
-
-<?php } ?>
-
-</div>
 
 
 </section>
