@@ -173,12 +173,12 @@ $reseaux = [
 
 $menu = [
     1 => [
-    'url' => 'https://www.tiktok.com/fr/',
+    'url' => '',
     'title' => 'Copyright',
     ],
 
     2 => [
-        'url' => 'https://www.tiktok.com/fr/',
+        'url' => '',
         'title' => 'Mentions légales',
     ],
 ];
