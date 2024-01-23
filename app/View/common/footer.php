@@ -23,7 +23,10 @@
     <?php endforeach ?>
 
     <?php foreach($menu as $infos) : ?>
-     <div class="bas">
+      <?php if (isset($infos['url'])) : ?>
+         <a href ="<?= $infos['url'] ?>"> <?= $infos['title'] ?></a>
+      <?php endif; ?>
+      <div class="bas">
         <a href ="<?= $infos['url'] ?>"> <?= $infos['title'] ?></a>
      </div>
     <?php endforeach ?>
