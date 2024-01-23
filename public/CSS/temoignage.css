@@ -37,7 +37,7 @@ audio::-webkit-media-controls-panel{
 }
 
 #ecrit {
-    background-image: url("../Image/IElLetmoifond2.svg");
+    background-image: url("../image/ieletmoifond2.svg");
     padding: 6%;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -45,7 +45,7 @@ audio::-webkit-media-controls-panel{
 
 
 #audio {
-    background-image: url("../Image/IElLetmoifond.svg");
+    background-image: url("../image/ieletmoifond.svg");
     padding: 6%;
     background-repeat: no-repeat;
     background-size: 100%;

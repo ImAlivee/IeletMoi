@@ -3,13 +3,13 @@
 
 .description {
   text-align: center;
-  background-image: url('../Image/fond1.svg') ;
+  background-image: url('../image/fond1.svg') ;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .description div{
-  background-image: url('../Image/fond_credits.svg');
+  background-image: url('../image/fond_credits.svg');
   background-size: 100%;
   background-position: center;
   padding: 11%;
@@ -113,7 +113,7 @@ h1 {
  .video{
   padding: 3%;
   text-align: center;
-  background-image: url('../Image/IElLetmoifond.svg');
+  background-image: url('../image/ieletmoifond.svg');
   background-size: 100%;
   background-repeat: no-repeat;
  }
