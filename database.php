@@ -182,3 +182,26 @@ $menu = [
         'title' => 'Mentions légales',
     ],
 ];
+
+$reseau = [
+
+    'Instagram' => [
+        'url' => 'https://instagram.com/iel_et_moi?igshid=MTk0NTkyODZkYg==',
+        'image' => 'public\Image\imagesContacts\instagram.png',
+    ],
+
+    'Youtube' => [
+        'url' => 'https://www.youtube.com/',
+        'image' => 'public\Image\imagesContacts\youtube.png',
+    ],
+
+    'Spotify' => [
+        'url' => 'https://open.spotify.com/intl-fr',
+        'image' => 'public\Image\imagesContacts\spotify.png',
+    ],
+
+    'Tiktok' => [
+        'url' => 'https://www.tiktok.com/fr/',
+        'image' => 'public\Image\imagesContacts\tiktok.png',
+    ],
+];
