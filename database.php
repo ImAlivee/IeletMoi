@@ -1,10 +1,10 @@
 <?php
 $temoignages_bd = [
     1 => [
-        'link' => 'Temoignages.php#BD',
+        'link' => 'temoignages.php#BD',
         'titre' => 'Passe ta route',
         'sujet' => "Un inconnu n'arrête pas de me demander si je suis un homme.",
-        'url' => 'public\Image\BD\1.png',
+        'url' => 'public\image\bd\1.png',
         'temoignant-prenom' => 'Léo',
         'temoignant-age' => '19',
         'bd' => [
@@ -53,6 +53,7 @@ $temoignages_oral = [
     ],
 
     4 => [
+<<<<<<< HEAD
         'audio' => 'public/image/temoignage/temoignage_emilie_becker_groupem.mp3',
         'img' => 'public\Image\accueil\preview_audio.svg',
         'resume' => 'Discussion en groupe qui amène à la différence de vision entre les couples gay et lesbiens, un gars du groupe trouve les couples gay dégueulasse mais va trouver un couple lesbien chaud, la même remarque avait été faite par son père',
@@ -65,8 +66,11 @@ $temoignages_oral = [
 
     5 => [
         'audio' => 'public/image/temoignage/temoignage_alicia_gossiome_groupem.mp3',
+=======
+        'audio' => 'public/image/temoignage/temoignage_alicia_gossiome_groupem-.mp3',
+>>>>>>> c161ab8824924a90da7358eab66701ab15e74824
         'link' => 'Temoignages.php#audio',
-        'img' => 'public\Image\accueil\preview_audio.svg',
+        'img' => 'public\image\accueil\preview_audio.svg',
         'resume' => 'Une connaissance pose des questions assez méchantes sur les raisons de sa bisexualité, la question qui l’a le plus marqué étant « Il t’es arrivé quoi pour être comme ça ? »',
         'auteur' => [
             'nom' => 'Gossiome',
@@ -99,31 +103,31 @@ $membres = [
         'nom' => 'Regnier',
         'prenom' => 'Aurore',
         'photo' => 'https://media.discordapp.net/attachments/1153396669208084602/1180179969909981314/92_REGNIER_Aurore.jpg?ex=657c7b3f&is=656a063f&hm=f1c30113f8d931e10fd9632f9a867bf53853bbd219a8871f2baaf252edf647f5&=&format=webp&width=423&height=563',
-        'url' => 'Aurore.php',
+        'url' => 'aurore.php',
     ],
     2 => [
         'nom' => 'Faitout',
         'prenom' => 'Alban',
         'photo' => 'https://media.discordapp.net/attachments/1153396669208084602/1180179970857914368/IMG_0145.JPG?ex=657c7b3f&is=656a063f&hm=405721bee469409dc95aad89aa569f981398139fa0d9d35f81e2dc5c18b5f986&=&format=webp&width=423&height=563',
-        'url' => 'Alban.php',
+        'url' => 'alban.php',
     ],
     3 => [
         'nom' => 'Leclaire',
         'prenom' => 'Raphaël',
         'photo' => 'https://media.discordapp.net/attachments/1153396669208084602/1180179968580403281/57_LECLAIRE_Raphael.jpg?ex=657c7b3f&is=656a063f&hm=b6f0c8706e3c6bcff56708d6c4f8491a2589bc2254570126b694a806f18a2d20&=&format=webp&width=423&height=563',
-        'url' => 'Raphael.php',
+        'url' => 'raphael.php',
     ],
     4 => [
         'nom' => 'Martin',
         'prenom' => 'Joshuoy',
         'photo' => 'https://media.discordapp.net/attachments/1153396669208084602/1180179969075322970/64_MARTIN_Joshuoy.jpg?ex=657c7b3f&is=656a063f&hm=8c3cc352636e39d8368f7b734393171049e43bef8c9cac68a189607c7682f723&=&format=webp&width=423&height=563',
-        'url' => 'Joshuoy.php',
+        'url' => 'joshuoy.php',
     ],
     5 => [
         'nom' => 'Becker',
         'prenom' => 'Émilie',
         'photo' => 'https://media.discordapp.net/attachments/1153396669208084602/1180179967414378566/9_BECKER_Emilie.jpg?ex=657c7b3e&is=656a063e&hm=d55cdc4e7a034e843b6dc0b1b8ad4fe4ecd3c7549f624d065375aec6bac97d1a&=&format=webp&width=423&height=563',
-        'url' => 'Emilie.php',
+        'url' => 'emilie.php',
     ],
     6 => [
         'nom' => 'Lemoine',
@@ -135,22 +139,22 @@ $membres = [
         'nom' => 'Gossiome',
         'prenom' => 'Alicia',
         'photo' => 'https://media.discordapp.net/attachments/1153396669208084602/1180179968060313760/43_GOSSIOME_Alicia.jpg?ex=657c7b3f&is=656a063f&hm=615de7e4b1f2faadee0cda007d65d6b8f4194e3e07216f4a5d6c5524e453669c&=&format=webp&width=423&height=563',
-        'url'=> 'Alicia.php',
+        'url'=> 'alicia.php',
     ],
     8 => [
         'nom' => 'Moudio',
         'prenom' => 'Nathân',
         'photo' => 'https://media.discordapp.net/attachments/1153396669208084602/1180179969486377070/74_MOUDIO_BOUENYE_Nathan.jpg?ex=657c7b3f&is=656a063f&hm=c3013929837e8bfe4035eea9ca59047e6220a9769624655273c616b50e8d0519&=&format=webp&width=423&height=563',
-        'url' => 'Nathan.php',
+        'url' => 'nathan.php',
     ],
 ];
 
 $header = [
-    'Contact' => 'Contact.php',
-    'Présentation' => 'Presentation.php',
-    'Témoignages' => 'Temoignages.php',
-    'Formulaire' => 'Formulaire.php',
-    'Accueil' => 'Accueil.php',
+    'Contact' => 'contact.php',
+    'Présentation' => 'presentation.php',
+    'Témoignages' => 'temoignages.php',
+    'Formulaire' => 'formulaire.php',
+    'Accueil' => 'accueil.php',
 ];
 $footer = [
     'mentions' => 'mentions_legales.php',
