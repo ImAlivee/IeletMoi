@@ -68,6 +68,7 @@ li a:hover{
 
 .bas figure {
   width: 75px;
+  display: inline-block;
   height: 100px;
   margin: 0 1%;
 }
